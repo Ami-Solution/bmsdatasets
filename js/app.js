@@ -1,8 +1,4 @@
 jQuery(document).ready(function() {
-    jQuery("#templates-container").load("templates/item.html");
-});
-
-jQuery(document).ready(function() {
     var http = jQuery.ajax('data/datasets.json');
     http.success(function(data) {
         var datasets = data.datasets;
