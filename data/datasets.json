@@ -1,0 +1,221 @@
+{
+  "datasets": [
+    {
+      "layout": "dataset",
+      "title": "Average Utility Rate by Utility Boundary API",
+      "link": "http://developer.nrel.gov/docs/electricity/utility-rates-v3/",
+      "contact": "Nate Blair",
+      "category": "Utility Rate Database",
+      "summary": "This API returns annual average utility rates ($/kWH) for residential, commercial and industrial sectors. Users can also search the local utility name for a specific location.",
+      "description": "This tool returns annual average utility rates ($/kWH) for residential, commercial and industrial sectors as well as the local utility name for a specific location. It does not return complex rate information. The data source is Ventyx Research Inc. and the Energy Information Agency (EIA), and was updated with 2012 numbers. Version 3 is the current version of the utility rates API. Previous versions have been deprecated and its users are encouraged to migrate to this newly enhanced version.",
+      "value": "This tool provides a free, public source for utility rate \nquantitative information."
+    },
+    {
+      "layout": "dataset",
+      "title": "Average Utility Rate by Census Region API",
+      "link": "http://developer.nrel.gov/docs/electricity/census-rate-v3/",
+      "contact": "Nate Blair",
+      "category": "Utility Rate Database",
+      "summary": "Given a location and Census Bureau region level (block, blockgroup, tract), this API returns the Census Bureau ID, utility rate, and company information.",
+      "identifier": "2b2ad06c-dc85-4d5d-b445-34e27343c697",
+      "description": "Given a location and Census Bureau region level (block, blockgroup, tract), this tool returns the Census Bureau ID, utility rate, and company information.",
+      "value": "This tool provides a free, public source for utility rate \nquantitative information."
+    },
+    {
+      "layout": "dataset",
+      "title": "Energy Incentives API",
+      "link": "http://developer.nrel.gov/docs/electricity/energy-incentives-v1/",
+      "contact": "Dan Getman",
+      "category": "Cost and Economic Analyses",
+      "summary": "This API lists the incentives found in the Database for State Incentives for Renewables and Efficiency (DSIRE) spreadsheet by location.",
+      "identifier": "45550ec5-f745-49a9-a2e6-01bf76022455",
+      "description": "The Energy Incentives tool API lists the incentives\nfound in the DSIRE quantitative spreadsheet by\nlocation. This is the current version of the energy\nincentives API. Previous versions have been\ndepreciated and its users are encouraged to migrate\nto this newly enhanced version. Note that this data\nhas not been updated for over a year because of the\nDSIRE hiatus.",
+      "value": "This tool provides a quantitative way to get the DSIRE\ndata into online tools."
+    },
+    {
+      "layout": "dataset",
+      "title": "MapSearch",
+      "link": "http://www.nrel.gov/gis/mapsearch/index-b.html",
+      "contact": "Dan Getman",
+      "category": "Mapping Tools and Data",
+      "summary": "MapSearch enables you to search NREL's collection of maps created by the Geographic Information System (GIS) team.",
+      "description": "Use MapSearch to easily search NREL's collection of\nmaps created by the Geographic Information System\n(GIS) team. Please use the search box and the filters\non the left of the screen to limit results.",
+      "value": "MapSearch provides broader accessibility to maps that\nare often buried in a single publication."
+    },
+    {
+      "layout": "dataset",
+      "title": "OpenEI",
+      "link": "http://en.openei.org/wiki/Main_Page",
+      "contact": "Debbie Brodt-Giles",
+      "category": "Open Energy Information",
+      "summary": "OpenEI provides data access, generative data use, key knowledge derivation tools, and synthetic datasets that can help inform energy policy and investment decisions. It enables the development of knowledge bases and datasets API's and Web services. It houses the Transparent Cost Database (TCDB) and the Utility Rate Database (URDB).",
+      "description": "This open-data “platform of platforms” provides\ndata access, generative data use, key knowledge\nderivation tools, and synthetic datasets that can\nhelp inform energy policy and investment decisions.\nOpenEI also enables the development of knowledge\nbases and datasets and the delivery of energy-related\ndata, application programming interfaces (APIs),\nand Web services. It houses the Transparent Cost\nDatabase (TCDB) and the Utility Rate Database\n(URDB).",
+      "value": "OpenEI supports the DOE fulfillment of open government\nstandards: transparency, public participation, and\ncollaboration. Built utilizing the standards and practices\nof the Linked Open Data community, the OpenEI platform\nis much more robust and powerful than typical websites\nand databases."
+    },
+    {
+      "layout": "dataset",
+      "title": "Photo Voltaic Data Acquisition API",
+      "link": "http://developer.nrel.gov/docs/solar/pvdaq-v3/",
+      "contact": "Dan Getman",
+      "category": "Photo Voltaic Data Acquisition",
+      "summary": "This API provides access to PV performance data collected by NREL for systems throughout the country.",
+      "identifier": "990da420-d803-4084-afa3-95404fa0d6bd",
+      "description": "The PVDAQ API provides access to photovoltaic\nperformance data collected by NREL for systems\nthroughout the country. The PVDAQ mapping\napplication uses these data to help industry and\ngovernment planners study solar array efficiency.",
+      "value": "These data are difficult to find and so numerous that\nthey are difficult to download in bulk. This application\nprovides access to these data in a way that allows users\nto explore them visually and to download only the\nportions of the data needed for analysis."
+    },
+    {
+      "layout": "dataset",
+      "title": "Photo Voltaic Data Acquisition Application",
+      "link": "http://maps.nrel.gov/pvdaq",
+      "contact": "Dan Getman",
+      "category": "Photo Voltaic Data Acquisition",
+      "summary": "Users can explore data visually thru the application and download only the portions of the data necessary for analysis.",
+      "description": "The PV Data Acquisition application provides the\naccess, both public and private, to PV performance\ndata across the United States.",
+      "value": "These data are difficult to find and so numerous that\nthey are difficult to download in bulk. This application\nprovides access to these data in a way that allows users\nto explore them visually and to download only the\nportions of the data needed for analysis."
+    },
+    {
+      "layout": "dataset",
+      "title": "Photo Voltaic Watts",
+      "link": "http://pvwatts.nrel.gov",
+      "contact": "Nate Blair",
+      "category": "Photo Voltaic Watts",
+      "summary": "Users can get an estimate of expected hourly, monthly and annual PV system production for U.S. and international locations.",
+      "description": "This popular tool calculates the electrical energy\nproduced by a grid-connected PV system and the\napproximate cost-of-energy in comparison to average\nutility rates.",
+      "value": "PVWatts provides the general public with a basic solar\nperformance modeling tool. Users can get an estimate\nof expected hourly, monthly and annual PV system\nproduction for U.S. and international locations. The\nnew update includes a rooftop drawing tool and simple\neconomic and incentive analysis options."
+    },
+    {
+      "layout": "dataset",
+      "title": "Photo Voltaic Watts API Version 4",
+      "link": "http://developer.nrel.gov/docs/solar/pvwatts-v4/",
+      "contact": "Nate Blair",
+      "category": "Photo Voltaic Watts",
+      "summary": "This API calculates the energy production of grid-connected PV energy systems. Version 4 estimates the performance of hypothetical residential and small commercial PV installations.",
+      "identifier": "392cf124-b37e-4d3c-b04c-29a2fd3cfabd",
+      "description": "The PVWatts API calculates the energy production of\ngrid-connected PV energy systems. V4 estimates the\nperformance of hypothetical residential and small\ncommercial PV installations.",
+      "value": "This tool matches output from the previous version of\nthe PVWatts online tool."
+    },
+    {
+      "layout": "dataset",
+      "title": "Photo Voltaic Watts API Version 5",
+      "link": "http://developer.nrel.gov/docs/solar/pvwatts-v5/",
+      "contact": "Nate Blair",
+      "category": "Photo Voltaic Watts",
+      "summary": "This version applies updated defaults, inverter curve, and other options to match the September 2014 update to PVWatts. It is recommended users adopt Version 5.",
+      "description": "The PVWatts V5 API calculates the energy production\nof grid-connected PV energy systems. This version\nestimates the performance of hypothetical residential\nand small commercial PV installations. It applies\nupdated defaults, inverter curve, and other options\nto match the September 2014 update to PVWatts.",
+      "value": "This tool matches output from the September 2014\nupdate of the PVWatts online tool."
+    },
+    {
+      "layout": "dataset",
+      "title": "Solar and Wind Energy Resource Assessment (SWERA) Model",
+      "link": "http://en.openei.org/apps/SWERA/",
+      "contact": "Jon Weers",
+      "category": "Mapping Tools and Data",
+      "summary": "SWERA uses NREL's geospatial toolkit and OpenEI to depict solar and wind resource data in 13 developing countries.",
+      "description": "SWERA uses NREL's geospatial toolkit and OpenEI to\ndepict solar and wind resource data in 13 developing\ncountries.",
+      "value": "The app allows users to view, compare, and interact with\nseveral data sets. The goal is to provide access to highquality\ndata, on a global scale, that can help facilitate\nrenewable energy policies and investments."
+    },
+    {
+      "layout": "dataset",
+      "title": "Solar DataSet Query",
+      "link": "http://developer.nrel.gov/docs/solar/data-query-v1/",
+      "contact": "Anthony Lopez",
+      "category": "Climate and Solar Data",
+      "summary": "This API tells users the closest climate data for a location.",
+      "identifier": "c4fea6b6-3c7d-4237-b944-7c78f53717b7",
+      "description": "The Solar DataSet Query tool API tells users the closest\nlocation for one of several standard sets of solar data.",
+      "value": "The geospatial location of TMY2, TMY3, etc. files can be\ndifficult to code."
+    },
+    {
+      "layout": "dataset",
+      "title": "Solar Prospector",
+      "link": "http://maps.nrel.gov/prospector",
+      "contact": "Dan Getman",
+      "category": "Mapping Tools and Data",
+      "summary": "This tool allows users to examine, distribute, and analyze solar resource data for the United States and assists in making decisions about optimal locations for solar plants.",
+      "description": "This tool shows sites for developing utility-scale solar\npower. It allows users to examine, distribute, and\nanalyze solar resource data for the United States and\nassists in making decisions about optimal locations for\nsolar plants. It also allows users to explore temporal\nand spatial aspects of NREL's solar resource data and\ndownload the resource data for use outside of the tool,\nfor example, in the System Advisor Model or SAM.",
+      "value": "Solar Prospector assists the solar industry by providing\ncritical information about the location of solar resources,\nland ownership, and general infrastructure in an easy-touse\nmap format. Users can quickly download hourly solar\nresource data for specific locations and quickly perform\ntemporal analyses for any location in the United States."
+    },
+    {
+      "layout": "dataset",
+      "title": "Solar Resource Data API",
+      "link": "http://developer.nrel.gov/docs/solar/solar-resource-v1/",
+      "contact": "Anthony Lopez",
+      "category": "Climate and Solar Data",
+      "summary": "This tool returns various types of solar data for a location. It currently returns data for average direct normal irradiance, average global horizontal irradiance, and average tilt at latitude.",
+      "identifier": "6eb24682-c220-4fd7-aa8c-88e105bd11b3",
+      "description": "This tool returns various types of solar data for a\nlocation. It currently returns data for average direct\nnormal irradiance, average global horizontal irradiance,\nand average tilt at latitude.",
+      "value": "The Solar Resource Data API matches the average data\nprovided within the Solar Prospector."
+    },
+    {
+      "layout": "dataset",
+      "title": "Utility Rate Database",
+      "link": "http://en.openei.org/wiki/Utility_Rate_Database",
+      "contact": "Nate Blair",
+      "category": "Utility Rate Database",
+      "summary": "Users can search for utility rate structures from American utility companies recognized by the Energy Information Administration. They can also browse, edit and add new utility rates.",
+      "description": "The Utility Rate Database is an online platform for storing and \nretrieving a wide array of electric utility rate structures. \nThe database is the nation’s first publicly available utility \nrate database. It has been populated primarily by NREL and \nIllinois State University.",
+      "value": "This tool provides a free, public source for utility rate \nquantitative information."
+    },
+    {
+      "layout": "dataset",
+      "title": "Utility Rate Database API",
+      "link": "http://en.openei.org/services/doc/rest",
+      "contact": "Nate Blair",
+      "category": "Utility Rate Database",
+      "summary": "This API allows access to complex utility rate structure information (across all sectors) for most U.S. utility companies.",
+      "identifier": "aa735d15-34f1-46d4-aad8-2074809a54cf",
+      "description": "Access complex utility rate structure information\n(across all sectors) for most U.S. utility companies from \nthe Utility Rate Database. This information is collected \nand quality controlled on a continual basis by Illinois \nState University on behalf of DOE and housed within \nthe OpenEI.org platform. To browse available data, \nsee the OpenEI U.S. Utility Rate Database page.",
+      "value": "This tool provides a free, public source for utility rate \nquantitative information."
+    },
+    {
+      "layout": "dataset",
+      "title": "Cost of Renewable Energy Spreadsheet Tool (CREST)",
+      "link": "https://financere.nrel.gov/finance/content/crest-cost-energy-models",
+      "contact": "Mike Mendelsohn",
+      "category": "Cost and Economic Analyses",
+      "summary": "CREST is a cash-flow model that allows users to assess solar, wind, or geothermal projects, design cost-based incentives, and evaluate the impact of tax incentives or other support structures.",
+      "description": "This cash-flow model allows users to assess solar,\nwind, or geothermal projects, design cost-based\nincentives, and evaluate the impact of tax incentives\nor other support structures.",
+      "value": "CREST is an easy-to-use project analysis tool."
+    },
+    {
+      "layout": "dataset",
+      "title": "Community Solar Scenario Tool (CSST)",
+      "link": "http://www.nrel.gov/tech_deployment/tools_community_solar.html",
+      "contact": "John Nangle",
+      "category": "Cost and Economic Analyses",
+      "summary": "Users can see how various inputs such as system size, location, and project costs, impact the economics of a project from the perspectives of both a potential customer and the sponsoring utility.",
+      "description": "The Community Solar Scenario Tool (CSST) provides a\n\"first cut\" analysis of different community or shared\nsolar program options. The tool has been created\nprimarily for smaller municipal utilities, electric\ncooperatives, and state and local advocates. This\nmodel allows users to see how various inputs, such as\nsystem size, location, and project costs, impact the\neconomics of a project from the perspectives of both a\npotential customer and the sponsoring utility.",
+      "value": "The CSST allows users to get an idea of the community\nsolar project economics without having to use a more\nsophisticated tool such as SAM. It is intended as a \"first\nlook\" tool."
+    },
+    {
+      "layout": "dataset",
+      "title": "Open PV Project",
+      "link": "https://openpv.nrel.gov/",
+      "contact": "Dan Getman",
+      "category": "Market Data",
+      "summary": "The OpenPV Project provides real-time status of the solar PV market (price and installed capacity data at the state level) in the U.S.",
+      "description": "The OpenPV Project is a collaborative effort among\ngovernment, industry, and the public to compile a\ncomprehensive database of PV installation data for\nthe United States, providing PV system price and\ninstalled capacity data at the state level.",
+      "value": "The data collected is actively maintained by the\ncontributors and are always changing to provide an\nevolving, up-to-date snapshot of the U.S. solar power\nmarket. Additionally, the application provides several\ninnovative interactive tools to explore the information\nand derive knowledge from the data in the database."
+    },
+    {
+      "layout": "dataset",
+      "title": "Photo Voltaic Jobs and Economic Development Impact (PV JEDI)",
+      "link": "https://jedi.nrel.gov/",
+      "contact": "Dan Getman",
+      "category": "Cost and Economic Analyses",
+      "summary": "This model estimates the economic impacts of constructing and operating PV power generation at the local and state levels.",
+      "description": "The Jobs and Economic Development Impact (JEDI)\nPhotovoltaics (PV) model estimates the economic\nimpacts of constructing and operating photovoltaic\npower generation at the local and state levels. On this\nsite, users can download the model for free, learn more\nabout how JEDI works, understand the output, and get\nanswers to questions about using the model.",
+      "value": "This tool provides a robust and impartial description of\nthe number of jobs from a particular plant."
+    },
+    {
+      "layout": "dataset",
+      "title": "Solar Deployment System (Solar DS)",
+      "link": "http://www.nrel.gov/docs/fy10osti/45832.pdf",
+      "contact": "Easan Drury",
+      "category": "Market Data",
+      "summary": "A market diffusion tool used to explore rooftop PV market potential in the United States, and the sensitivity of rooftop PV demand to several market factors.",
+      "description": "SolarDS is a market diffusion tool used to explore\nrooftop PV market potential in the United States,\nand the sensitivity of rooftop PV demand to several\nmarket factors.",
+      "value": "SolarDS is the primary tool used to evaluate future PV\nmarket potential, and the sensitivity of rooftop demand\nto several key factors."
+    }
+  ]
+}
