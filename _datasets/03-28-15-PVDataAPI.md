@@ -4,7 +4,7 @@ title: Photo Voltaic Data Acquisition API
 link: http://developer.nrel.gov/docs/solar/pvdaq-v3/
 nrel-contact: Dan Getman
 category: Photo Voltaic Data Acquisition
-short-description: This API provides access to PV performance data collected by NREL for systems throughout the country. 
+summary: This API provides access to PV performance data collected by NREL for systems throughout the country.
 identifier: 990da420-d803-4084-afa3-95404fa0d6bd
 ---
 

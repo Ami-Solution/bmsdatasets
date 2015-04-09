@@ -4,7 +4,7 @@ title: Solar Resource Data API
 link: http://developer.nrel.gov/docs/solar/solar-resource-v1/
 nrel-contact: Anthony Lopez
 category: Climate and Solar Data
-short-description: This tool returns various types of solar data for a location. It currently returns data for average direct normal irradiance, average global horizontal irradiance, and average tilt at latitude.
+summary: This tool returns various types of solar data for a location. It currently returns data for average direct normal irradiance, average global horizontal irradiance, and average tilt at latitude.
 identifier: 6eb24682-c220-4fd7-aa8c-88e105bd11b3
 ---
 

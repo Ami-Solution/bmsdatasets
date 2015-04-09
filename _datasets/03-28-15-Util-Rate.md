@@ -4,7 +4,7 @@ title: Utility Rate Database
 link: http://en.openei.org/wiki/Utility_Rate_Database
 nrel-contact: Nate Blair 
 category: Utility Rate Database
-short-description: Users can search for utility rate structures from American utility companies recognized by the Energy Information Administration. They can also browse, edit and add new utility rates. 
+summary: Users can search for utility rate structures from American utility companies recognized by the Energy Information Administration. They can also browse, edit and add new utility rates.
 ---
 
 ## Short Description

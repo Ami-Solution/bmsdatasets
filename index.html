@@ -22,7 +22,7 @@ layout: default
         {% if dataset.category contains 'Cost' %}
         <div class="post-preview">
           <h3><a class="post-link" href="{{dataset.url | prepend: site.baseurl }}">{{dataset.title}}</a></h2>
-          <p>{{dataset.short-description}}</p>
+          <p>{{dataset.summary}}</p>
           <a href="{{dataset.link}}">See Data >></a>
         </div>
         {% endif %}
@@ -35,7 +35,7 @@ layout: default
         {% if dataset.category contains 'Mapping' %}
         <div class="post-preview">
           <h3><a class="post-link" href="{{dataset.url | prepend: site.baseurl }}">{{dataset.title}}</a></h2>
-          <p>{{dataset.short-description}}</p>
+          <p>{{dataset.summary}}</p>
         </div>
         {% endif %}
       {% endfor %}
@@ -47,7 +47,7 @@ layout: default
         {% if dataset.category contains 'Market' %}
         <div class="post-preview">
           <h3><a class="post-link" href="{{dataset.url | prepend: site.baseurl }}">{{dataset.title}}</a></h2>
-            <p>{{dataset.short-description}}</p>
+            <p>{{dataset.summary}}</p>
         </div>
         {% endif %}
       {% endfor %}
@@ -61,7 +61,7 @@ layout: default
         {% if dataset.category contains 'Climate' %}
         <div class="post-preview">
           <h3><a class="post-link" href="{{dataset.url | prepend: site.baseurl }}">{{dataset.title}}</a></h2>
-            <p>{{dataset.short-description}}</p>
+            <p>{{dataset.summary}}</p>
         </div>
         {% endif %}
       {% endfor %}
