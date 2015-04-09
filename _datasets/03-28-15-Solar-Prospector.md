@@ -2,7 +2,7 @@
 layout: dataset
 title: Solar Prospector
 link: http://maps.nrel.gov/prospector
-nrel-contact: Dan Getman
+contact: Dan Getman
 category: Mapping Tools and Data
 summary: This tool allows users to examine, distribute, and analyze solar resource data for the United States and assists in making decisions about optimal locations for solar plants.
 ---

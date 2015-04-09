@@ -2,7 +2,7 @@
 layout: dataset
 title: Photo Voltaic Watts API Version 5
 link: http://developer.nrel.gov/docs/solar/pvwatts-v5/
-nrel-contact: Nate Blair
+contact: Nate Blair
 category: Photo Voltaic Watts
 summary: This version applies updated defaults, inverter curve, and other options to match the September 2014 update to PVWatts. It is recommended users adopt Version 5.
 ---

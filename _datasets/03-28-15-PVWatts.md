@@ -2,7 +2,7 @@
 layout: dataset
 title: Photo Voltaic Watts
 link: http://pvwatts.nrel.gov
-nrel-contact: Nate Blair
+contact: Nate Blair
 category: Photo Voltaic Watts
 summary: Users can get an estimate of expected hourly, monthly and annual PV system production for U.S.
 and international locations. 

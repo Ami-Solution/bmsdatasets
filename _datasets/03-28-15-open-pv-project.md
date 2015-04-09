@@ -2,7 +2,7 @@
 layout: dataset
 title: Open PV Project
 link: https://openpv.nrel.gov/
-nrel-contact: Dan Getman
+contact: Dan Getman
 category: Market Data
 summary: The OpenPV Project provides real-time status of the solar PV market (price and installed capacity data at the state level) in the U.S.
 ---
