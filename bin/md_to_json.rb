@@ -5,8 +5,14 @@ require 'yaml'
 
 class MdToJson
 
-  def self.convert(fname)
-    obj = YAML::load_file fname
+  def convert(fname)
+    raw = YAML::load_file fname
+    obj = {
+      'dataset_id'  => build_id(raw['title']),
+      'active'      => true,
+      'source'      => 'solarscout',
+      'category_id' => build_id(raw['category'])
+    }.merge(raw)
 
     str = File.read fname
     str =~ /.+##.+ Description\s+(.+)(##.+Value\s+)(.+)/m
@@ -16,9 +22,19 @@ class MdToJson
     obj
   end
 
-  def self.format(filenames, io=STDOUT)
+  def format(filenames, io=STDOUT)
     objects = filenames.map {|fname| convert(fname)}
     io << JSON.pretty_generate({'datasets' => objects})
+  end
+
+  private
+
+  def build_id(str)
+    str.gsub(/\W/, ' ').
+      gsub(/ +/, '-').
+      strip.
+      downcase.
+      gsub(/\-+$/, '')
   end
 
 end
@@ -27,5 +43,5 @@ end
 if __FILE__ == $0
   raise "USAGE: #{$0} MARKDOWN_FILES" unless ARGV.length > 0
 
-  MdToJson.format(ARGV)
+  MdToJson.new.format(ARGV)
 end

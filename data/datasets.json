@@ -1,6 +1,10 @@
 {
   "datasets": [
     {
+      "dataset_id": "average-utility-rate-by-utility-boundary-api",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "utility-rate-database",
       "layout": "dataset",
       "title": "Average Utility Rate by Utility Boundary API",
       "link": "http://developer.nrel.gov/docs/electricity/utility-rates-v3/",
@@ -11,6 +15,10 @@
       "value": "This tool provides a free, public source for utility rate \nquantitative information."
     },
     {
+      "dataset_id": "average-utility-rate-by-census-region-api",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "utility-rate-database",
       "layout": "dataset",
       "title": "Average Utility Rate by Census Region API",
       "link": "http://developer.nrel.gov/docs/electricity/census-rate-v3/",
@@ -22,6 +30,10 @@
       "value": "This tool provides a free, public source for utility rate \nquantitative information."
     },
     {
+      "dataset_id": "energy-incentives-api",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "cost-and-economic-analyses",
       "layout": "dataset",
       "title": "Energy Incentives API",
       "link": "http://developer.nrel.gov/docs/electricity/energy-incentives-v1/",
@@ -33,6 +45,10 @@
       "value": "This tool provides a quantitative way to get the DSIRE\ndata into online tools."
     },
     {
+      "dataset_id": "mapsearch",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "mapping-tools-and-data",
       "layout": "dataset",
       "title": "MapSearch",
       "link": "http://www.nrel.gov/gis/mapsearch/index-b.html",
@@ -43,6 +59,10 @@
       "value": "MapSearch provides broader accessibility to maps that\nare often buried in a single publication."
     },
     {
+      "dataset_id": "openei",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "open-energy-information",
       "layout": "dataset",
       "title": "OpenEI",
       "link": "http://en.openei.org/wiki/Main_Page",
@@ -53,6 +73,10 @@
       "value": "OpenEI supports the DOE fulfillment of open government\nstandards: transparency, public participation, and\ncollaboration. Built utilizing the standards and practices\nof the Linked Open Data community, the OpenEI platform\nis much more robust and powerful than typical websites\nand databases."
     },
     {
+      "dataset_id": "photo-voltaic-data-acquisition-api",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "photo-voltaic-data-acquisition",
       "layout": "dataset",
       "title": "Photo Voltaic Data Acquisition API",
       "link": "http://developer.nrel.gov/docs/solar/pvdaq-v3/",
@@ -64,6 +88,10 @@
       "value": "These data are difficult to find and so numerous that\nthey are difficult to download in bulk. This application\nprovides access to these data in a way that allows users\nto explore them visually and to download only the\nportions of the data needed for analysis."
     },
     {
+      "dataset_id": "photo-voltaic-data-acquisition-application",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "photo-voltaic-data-acquisition",
       "layout": "dataset",
       "title": "Photo Voltaic Data Acquisition Application",
       "link": "http://maps.nrel.gov/pvdaq",
@@ -74,6 +102,10 @@
       "value": "These data are difficult to find and so numerous that\nthey are difficult to download in bulk. This application\nprovides access to these data in a way that allows users\nto explore them visually and to download only the\nportions of the data needed for analysis."
     },
     {
+      "dataset_id": "photo-voltaic-watts",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "photo-voltaic-watts",
       "layout": "dataset",
       "title": "Photo Voltaic Watts",
       "link": "http://pvwatts.nrel.gov",
@@ -84,6 +116,10 @@
       "value": "PVWatts provides the general public with a basic solar\nperformance modeling tool. Users can get an estimate\nof expected hourly, monthly and annual PV system\nproduction for U.S. and international locations. The\nnew update includes a rooftop drawing tool and simple\neconomic and incentive analysis options."
     },
     {
+      "dataset_id": "photo-voltaic-watts-api-version-4",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "photo-voltaic-watts",
       "layout": "dataset",
       "title": "Photo Voltaic Watts API Version 4",
       "link": "http://developer.nrel.gov/docs/solar/pvwatts-v4/",
@@ -95,6 +131,10 @@
       "value": "This tool matches output from the previous version of\nthe PVWatts online tool."
     },
     {
+      "dataset_id": "photo-voltaic-watts-api-version-5",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "photo-voltaic-watts",
       "layout": "dataset",
       "title": "Photo Voltaic Watts API Version 5",
       "link": "http://developer.nrel.gov/docs/solar/pvwatts-v5/",
@@ -105,6 +145,10 @@
       "value": "This tool matches output from the September 2014\nupdate of the PVWatts online tool."
     },
     {
+      "dataset_id": "solar-and-wind-energy-resource-assessment-swera-model",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "mapping-tools-and-data",
       "layout": "dataset",
       "title": "Solar and Wind Energy Resource Assessment (SWERA) Model",
       "link": "http://en.openei.org/apps/SWERA/",
@@ -115,6 +159,10 @@
       "value": "The app allows users to view, compare, and interact with\nseveral data sets. The goal is to provide access to highquality\ndata, on a global scale, that can help facilitate\nrenewable energy policies and investments."
     },
     {
+      "dataset_id": "solar-dataset-query",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "climate-and-solar-data",
       "layout": "dataset",
       "title": "Solar DataSet Query",
       "link": "http://developer.nrel.gov/docs/solar/data-query-v1/",
@@ -126,6 +174,10 @@
       "value": "The geospatial location of TMY2, TMY3, etc. files can be\ndifficult to code."
     },
     {
+      "dataset_id": "solar-prospector",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "mapping-tools-and-data",
       "layout": "dataset",
       "title": "Solar Prospector",
       "link": "http://maps.nrel.gov/prospector",
@@ -136,6 +188,10 @@
       "value": "Solar Prospector assists the solar industry by providing\ncritical information about the location of solar resources,\nland ownership, and general infrastructure in an easy-touse\nmap format. Users can quickly download hourly solar\nresource data for specific locations and quickly perform\ntemporal analyses for any location in the United States."
     },
     {
+      "dataset_id": "solar-resource-data-api",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "climate-and-solar-data",
       "layout": "dataset",
       "title": "Solar Resource Data API",
       "link": "http://developer.nrel.gov/docs/solar/solar-resource-v1/",
@@ -147,6 +203,10 @@
       "value": "The Solar Resource Data API matches the average data\nprovided within the Solar Prospector."
     },
     {
+      "dataset_id": "utility-rate-database",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "utility-rate-database",
       "layout": "dataset",
       "title": "Utility Rate Database",
       "link": "http://en.openei.org/wiki/Utility_Rate_Database",
@@ -157,6 +217,10 @@
       "value": "This tool provides a free, public source for utility rate \nquantitative information."
     },
     {
+      "dataset_id": "utility-rate-database-api",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "utility-rate-database",
       "layout": "dataset",
       "title": "Utility Rate Database API",
       "link": "http://en.openei.org/services/doc/rest",
@@ -168,6 +232,10 @@
       "value": "This tool provides a free, public source for utility rate \nquantitative information."
     },
     {
+      "dataset_id": "cost-of-renewable-energy-spreadsheet-tool-crest",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "cost-and-economic-analyses",
       "layout": "dataset",
       "title": "Cost of Renewable Energy Spreadsheet Tool (CREST)",
       "link": "https://financere.nrel.gov/finance/content/crest-cost-energy-models",
@@ -178,6 +246,10 @@
       "value": "CREST is an easy-to-use project analysis tool."
     },
     {
+      "dataset_id": "community-solar-scenario-tool-csst",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "cost-and-economic-analyses",
       "layout": "dataset",
       "title": "Community Solar Scenario Tool (CSST)",
       "link": "http://www.nrel.gov/tech_deployment/tools_community_solar.html",
@@ -188,6 +260,10 @@
       "value": "The CSST allows users to get an idea of the community\nsolar project economics without having to use a more\nsophisticated tool such as SAM. It is intended as a \"first\nlook\" tool."
     },
     {
+      "dataset_id": "open-pv-project",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "market-data",
       "layout": "dataset",
       "title": "Open PV Project",
       "link": "https://openpv.nrel.gov/",
@@ -198,6 +274,10 @@
       "value": "The data collected is actively maintained by the\ncontributors and are always changing to provide an\nevolving, up-to-date snapshot of the U.S. solar power\nmarket. Additionally, the application provides several\ninnovative interactive tools to explore the information\nand derive knowledge from the data in the database."
     },
     {
+      "dataset_id": "photo-voltaic-jobs-and-economic-development-impact-pv-jedi",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "cost-and-economic-analyses",
       "layout": "dataset",
       "title": "Photo Voltaic Jobs and Economic Development Impact (PV JEDI)",
       "link": "https://jedi.nrel.gov/",
@@ -208,6 +288,10 @@
       "value": "This tool provides a robust and impartial description of\nthe number of jobs from a particular plant."
     },
     {
+      "dataset_id": "solar-deployment-system-solar-ds",
+      "active": true,
+      "source": "solarscout",
+      "category_id": "market-data",
       "layout": "dataset",
       "title": "Solar Deployment System (Solar DS)",
       "link": "http://www.nrel.gov/docs/fy10osti/45832.pdf",

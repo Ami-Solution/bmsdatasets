@@ -29,13 +29,16 @@ template.
     <h1 class="page-heading cf">{{category}}</h1>
     <section class="post-list cf">
       {{#each datasets}}
+      {{#if active}}
       <div class="post-preview">
-        <h3><a class="post-link" href="dataset.html?id={{title}}">{{title}}</a></h3>
+        <h3><a class="post-link"
+               href="d/{{dataset_id}}.html">{{title}}</a></h3>
         <p>{{summary}}</p>
         {{#if link}}
         <a href="{{link}}">See Data &gt;&gt;</a>
         {{/if}}
       </div>
+      {{/if}}
       {{/each}}
     </section>
   </div>
