@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
             },
             {}
         );
-        var sorted_keys = (function(hash) {
+        var sorted_cats = (function(hash) {
             var arry = [];
             for (var key in hash) { arry.push(key) }
             return arry.sort();
@@ -24,7 +24,7 @@ jQuery(document).ready(function() {
         var template  = Handlebars.compile(source);
         var container = jQuery('.featured-datasets .wrapper');
 
-        sorted_keys.map(function(key) {
+        sorted_cats.map(function(key) {
             var subsets = categories[key];
             var data = {category:key, datasets:subsets};
             var rendered = template(data);
