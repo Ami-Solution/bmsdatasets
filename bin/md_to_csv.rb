@@ -1,9 +1,12 @@
 #!/usr/bin/env ruby
 
+require 'csv'
 require 'json'
 require 'yaml'
+require_relative 'solar_scout_util'
 
 class MdToJson
+  include SolarScoutUtil
 
   def convert(fname)
     raw = YAML::load_file fname
@@ -24,17 +27,22 @@ class MdToJson
 
   def format(filenames, io=STDOUT)
     objects = filenames.map {|fname| convert(fname)}
-    io << JSON.pretty_generate({'datasets' => objects})
+    headers = collect_headers(objects).uniq
+
+    # generate CSV header line
+    io << CSV.generate_line(headers)
+
+    # generate rows
+    objects.each do |obj|
+      row = headers.map {|key| obj[key]}
+      io << CSV.generate_line(row)
+    end
   end
 
   private
 
-  def build_id(str)
-    str.gsub(/\W/, ' ').
-      gsub(/ +/, '-').
-      strip.
-      downcase.
-      gsub(/\-+$/, '')
+  def collect_headers(array_of_objects)
+    array_of_objects.reduce([]) {|memo, obj| memo += obj.keys}
   end
 
 end
