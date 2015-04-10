@@ -62,7 +62,7 @@ elsif __FILE__ == $0 && 0 == ARGV.length
 
   class Test < Minitest::Test
     def setup
-      fname = 'data/solarscout-catalyst-datasets.csv'
+      fname = 'data/datasets.csv'
       @converter = CsvToJson.new
       @result = @converter.process(fname)
     end
