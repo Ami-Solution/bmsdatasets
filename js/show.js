@@ -9,19 +9,7 @@ jQuery(document).ready(function() {
 
     http.success(function(data) {
         var datasets = data.datasets;
-        var findByTitleId = function(id) {
-            var found;
-            jQuery.each(datasets, function(ii, dset) {
-                if (dset.title_id == id) {
-                    found = dset;
-                    return false;	// early exit
-                } else {
-                    return true;
-                }
-            });
-            return found;
-        };
-        var dset = findByTitleId(title_id);
+        var dset = datasets[title_id];
 
         jQuery('title').text(dset.title);
         jQuery('.post-title').text(dset.title);

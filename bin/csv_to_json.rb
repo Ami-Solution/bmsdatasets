@@ -15,32 +15,49 @@ class CsvToJson
     # extract named headers
     all_headers = csv.headers
 
-    # organize return result
-    array = []
-
-    # iterate over rows
+    # iterate over rows to build title_id-to-dset
+    datasets = {}
     csv.each do |row|
-      hash = {
+      title_id = build_id(row['title'])
+
+      dset = {
         'category_id' => build_id(row['category']),
-        'title_id'    => build_id(row['title'])
+        'title_id'    => title_id
       }
       all_headers.each {|key|
         case key
         when 'sources', 'tags'
           splitted = row[key].split /,/
           stripped = splitted.map &:strip
-          hash[key] = stripped
+          dset[key] = stripped
         when 'status'
-          hash[key] = ('1' == row[key])
+          dset[key] = ('1' == row[key])
         else
-          hash[key] = row[key]
+          dset[key] = row[key]
         end
       }
 
-      array << hash
+      datasets[title_id] = dset
     end
 
-    {'datasets' => array}
+    # iterate over datasets to build categories
+    categories = {}
+    datasets.each do |title_id, dset|
+      cc = dset['category']
+      categories[cc] = [] unless categories.include?(cc)
+      categories[cc].push(title_id)
+    end
+
+    # iterate over datasets to build tag-to-title_ids
+    tags = {}
+    datasets.each do |title_id, dset|
+      dset['tags'].each do |tt|
+        tags[tt] = [] unless tags.include?(tt)
+        tags[tt].push(title_id)
+      end
+    end
+
+    {'datasets' => datasets, 'categories' => categories, 'tags' => tags}
   end
 
 end
@@ -70,11 +87,11 @@ elsif __FILE__ == $0 && 0 == ARGV.length
     def test_datasets
       datasets = @result['datasets']
 
-      assert_instance_of Array, datasets
+      assert_instance_of Hash, datasets
       assert_equal 27, datasets.size
 
       # first dataset
-      dset = datasets.first
+      dset = datasets['solar-dataset-query']
       assert_equal 'Solar DataSet Query', dset['title']
 
       # status needs to be a boolean
@@ -87,14 +104,60 @@ elsif __FILE__ == $0 && 0 == ARGV.length
       }.each {|key, arry|
         assert_equal arry, dset[key], "FAILED ON KEY: #{key}"
       }
+    end
 
-      # find dataset with name
-      selected = datasets.select {|ds|
-        'Community Solar Scenario Tool (CSST)' == ds['title']
-      }
-      dset = selected[0]
-      assert_equal 'community-solar-scenario-tool-csst', dset['title_id']
+    def test_build_id
+      datasets = @result['datasets']
+      dset = datasets['community-solar-scenario-tool-csst']
+
+      assert_equal 'Community Solar Scenario Tool (CSST)', dset['title']
       assert_equal 'cost-and-economic-analyses', dset['category_id']
+    end
+
+    def test_categories
+      categories = @result['categories']
+
+      assert_instance_of Hash, categories
+      assert_instance_of Array, categories.values.first
+
+      histogram = {
+        "Climate and Solar Data"=>2,
+        "Cost and Economic Analyses"=>8,
+        "Developer Resource"=>1,
+        "Mapping Tools and Data"=>4,
+        "Market Data"=>2,
+        "Open Energy Information"=>2,
+        "Photo Voltaic Data Acquisition"=>2,
+        "Photo Voltaic Watts"=>3,
+        "Utility Rate Database"=>3
+      }
+      assert_equal histogram.keys, categories.keys
+      histogram.each do |cat, count|
+        assert_equal count, categories[cat].length
+      end
+    end
+
+    def test_tags
+      histogram = {
+        "api"=>11,
+        "application"=>1,
+        "gis"=>2,
+        "pdf"=>1,
+        "portal"=>3,
+        "sdk"=>1,
+        "web"=>7,
+        "xls"=>4,
+        "xml"=>1
+      }
+
+      tags = @result['tags']
+      assert_instance_of Hash, tags
+      assert_instance_of Array, tags.values.first
+
+      assert_equal histogram.keys, tags.keys.sort
+      histogram.each do |tt, count|
+        assert_equal count, tags[tt].length
+      end
     end
   end
 

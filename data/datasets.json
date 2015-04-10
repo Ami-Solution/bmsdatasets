@@ -1,6 +1,6 @@
 {
-  "datasets": [
-    {
+  "datasets": {
+    "solar-dataset-query": {
       "category_id": "climate-and-solar-data",
       "title_id": "solar-dataset-query",
       "status": true,
@@ -20,7 +20,7 @@
       "contact": "Anthony Lopez",
       "identifier": "c4fea6b6-3c7d-4237-b944-7c78f53717b7"
     },
-    {
+    "solar-resource-data-api": {
       "category_id": "climate-and-solar-data",
       "title_id": "solar-resource-data-api",
       "status": true,
@@ -40,7 +40,7 @@
       "contact": "Anthony Lopez",
       "identifier": "6eb24682-c220-4fd7-aa8c-88e105bd11b3"
     },
-    {
+    "community-solar-scenario-tool-csst": {
       "category_id": "cost-and-economic-analyses",
       "title_id": "community-solar-scenario-tool-csst",
       "status": true,
@@ -60,7 +60,7 @@
       "contact": "John Nangle",
       "identifier": null
     },
-    {
+    "cost-of-renewable-energy-spreadsheet-tool-crest": {
       "category_id": "cost-and-economic-analyses",
       "title_id": "cost-of-renewable-energy-spreadsheet-tool-crest",
       "status": true,
@@ -81,7 +81,7 @@
       "contact": "Mike Mendelsohn",
       "identifier": null
     },
-    {
+    "database-of-state-incentives-for-renewables-efficiency": {
       "category_id": "cost-and-economic-analyses",
       "title_id": "database-of-state-incentives-for-renewables-efficiency",
       "status": true,
@@ -101,7 +101,7 @@
       "contact": null,
       "identifier": null
     },
-    {
+    "energy-incentives-api": {
       "category_id": "cost-and-economic-analyses",
       "title_id": "energy-incentives-api",
       "status": true,
@@ -121,7 +121,7 @@
       "contact": "Dan Getman",
       "identifier": "45550ec5-f745-49a9-a2e6-01bf76022455"
     },
-    {
+    "photo-voltaic-jobs-and-economic-development-impact-pv-jedi": {
       "category_id": "cost-and-economic-analyses",
       "title_id": "photo-voltaic-jobs-and-economic-development-impact-pv-jedi",
       "status": true,
@@ -142,7 +142,7 @@
       "contact": "Dan Getman",
       "identifier": null
     },
-    {
+    "solar-roadmap": {
       "category_id": "cost-and-economic-analyses",
       "title_id": "solar-roadmap",
       "status": true,
@@ -162,7 +162,7 @@
       "contact": null,
       "identifier": null
     },
-    {
+    "system-advisor-model-sam": {
       "category_id": "cost-and-economic-analyses",
       "title_id": "system-advisor-model-sam",
       "status": true,
@@ -184,7 +184,7 @@
       "contact": null,
       "identifier": null
     },
-    {
+    "energy-information-administration-api": {
       "category_id": "developer-resource",
       "title_id": "energy-information-administration-api",
       "status": true,
@@ -204,7 +204,7 @@
       "contact": null,
       "identifier": null
     },
-    {
+    "mapsearch": {
       "category_id": "mapping-tools-and-data",
       "title_id": "mapsearch",
       "status": true,
@@ -224,7 +224,7 @@
       "contact": "Dan Getman",
       "identifier": null
     },
-    {
+    "solar-and-wind-energy-resource-assessment-swera-model": {
       "category_id": "mapping-tools-and-data",
       "title_id": "solar-and-wind-energy-resource-assessment-swera-model",
       "status": true,
@@ -244,7 +244,7 @@
       "contact": "Jon Weers",
       "identifier": null
     },
-    {
+    "solar-energy-environmental-mapper": {
       "category_id": "mapping-tools-and-data",
       "title_id": "solar-energy-environmental-mapper",
       "status": true,
@@ -264,7 +264,7 @@
       "contact": null,
       "identifier": null
     },
-    {
+    "solar-prospector": {
       "category_id": "mapping-tools-and-data",
       "title_id": "solar-prospector",
       "status": true,
@@ -285,7 +285,7 @@
       "contact": "Dan Getman",
       "identifier": null
     },
-    {
+    "open-pv-project": {
       "category_id": "market-data",
       "title_id": "open-pv-project",
       "status": true,
@@ -306,7 +306,7 @@
       "contact": "Dan Getman",
       "identifier": null
     },
-    {
+    "solar-deployment-system-solar-ds": {
       "category_id": "market-data",
       "title_id": "solar-deployment-system-solar-ds",
       "status": true,
@@ -326,7 +326,7 @@
       "contact": "Easan Drury",
       "identifier": null
     },
-    {
+    "green-button-data": {
       "category_id": "open-energy-information",
       "title_id": "green-button-data",
       "status": true,
@@ -348,7 +348,7 @@
       "contact": "Marty Burns",
       "identifier": null
     },
-    {
+    "openei": {
       "category_id": "open-energy-information",
       "title_id": "openei",
       "status": true,
@@ -368,7 +368,7 @@
       "contact": "Debbie Brodt-Giles",
       "identifier": null
     },
-    {
+    "photo-voltaic-data-acquisition-api": {
       "category_id": "photo-voltaic-data-acquisition",
       "title_id": "photo-voltaic-data-acquisition-api",
       "status": true,
@@ -388,7 +388,7 @@
       "contact": "Dan Getman",
       "identifier": "990da420-d803-4084-afa3-95404fa0d6bd"
     },
-    {
+    "photo-voltaic-data-acquisition-application": {
       "category_id": "photo-voltaic-data-acquisition",
       "title_id": "photo-voltaic-data-acquisition-application",
       "status": true,
@@ -408,7 +408,7 @@
       "contact": "Dan Getman",
       "identifier": null
     },
-    {
+    "photo-voltaic-watts-pvwatts": {
       "category_id": "photo-voltaic-watts",
       "title_id": "photo-voltaic-watts-pvwatts",
       "status": true,
@@ -429,7 +429,7 @@
       "contact": "Nate Blair",
       "identifier": null
     },
-    {
+    "photo-voltaic-watts-api-version-4": {
       "category_id": "photo-voltaic-watts",
       "title_id": "photo-voltaic-watts-api-version-4",
       "status": true,
@@ -449,7 +449,7 @@
       "contact": "Nate Blair",
       "identifier": "392cf124-b37e-4d3c-b04c-29a2fd3cfabd"
     },
-    {
+    "photo-voltaic-watts-api-version-5": {
       "category_id": "photo-voltaic-watts",
       "title_id": "photo-voltaic-watts-api-version-5",
       "status": true,
@@ -469,7 +469,7 @@
       "contact": "Nate Blair",
       "identifier": null
     },
-    {
+    "average-utility-rate-by-census-region-api": {
       "category_id": "utility-rate-database",
       "title_id": "average-utility-rate-by-census-region-api",
       "status": true,
@@ -489,7 +489,7 @@
       "contact": "Nate Blair",
       "identifier": "2b2ad06c-dc85-4d5d-b445-34e27343c697"
     },
-    {
+    "average-utility-rate-by-utility-boundary-api": {
       "category_id": "utility-rate-database",
       "title_id": "average-utility-rate-by-utility-boundary-api",
       "status": true,
@@ -509,7 +509,7 @@
       "contact": "Nate Blair",
       "identifier": null
     },
-    {
+    "utility-rate-database-api": {
       "category_id": "utility-rate-database",
       "title_id": "utility-rate-database-api",
       "status": true,
@@ -530,7 +530,7 @@
       "contact": "Nate Blair",
       "identifier": "aa735d15-34f1-46d4-aad8-2074809a54cf"
     },
-    {
+    "rooftop-solar-challenge-rsc-database": {
       "category_id": "cost-and-economic-analyses",
       "title_id": "rooftop-solar-challenge-rsc-database",
       "status": false,
@@ -550,5 +550,103 @@
       "contact": null,
       "identifier": null
     }
-  ]
+  },
+  "categories": {
+    "Climate and Solar Data": [
+      "solar-dataset-query",
+      "solar-resource-data-api"
+    ],
+    "Cost and Economic Analyses": [
+      "community-solar-scenario-tool-csst",
+      "cost-of-renewable-energy-spreadsheet-tool-crest",
+      "database-of-state-incentives-for-renewables-efficiency",
+      "energy-incentives-api",
+      "photo-voltaic-jobs-and-economic-development-impact-pv-jedi",
+      "solar-roadmap",
+      "system-advisor-model-sam",
+      "rooftop-solar-challenge-rsc-database"
+    ],
+    "Developer Resource": [
+      "energy-information-administration-api"
+    ],
+    "Mapping Tools and Data": [
+      "mapsearch",
+      "solar-and-wind-energy-resource-assessment-swera-model",
+      "solar-energy-environmental-mapper",
+      "solar-prospector"
+    ],
+    "Market Data": [
+      "open-pv-project",
+      "solar-deployment-system-solar-ds"
+    ],
+    "Open Energy Information": [
+      "green-button-data",
+      "openei"
+    ],
+    "Photo Voltaic Data Acquisition": [
+      "photo-voltaic-data-acquisition-api",
+      "photo-voltaic-data-acquisition-application"
+    ],
+    "Photo Voltaic Watts": [
+      "photo-voltaic-watts-pvwatts",
+      "photo-voltaic-watts-api-version-4",
+      "photo-voltaic-watts-api-version-5"
+    ],
+    "Utility Rate Database": [
+      "average-utility-rate-by-census-region-api",
+      "average-utility-rate-by-utility-boundary-api",
+      "utility-rate-database-api"
+    ]
+  },
+  "tags": {
+    "api": [
+      "solar-dataset-query",
+      "solar-resource-data-api",
+      "energy-incentives-api",
+      "green-button-data",
+      "photo-voltaic-data-acquisition-api",
+      "photo-voltaic-watts-api-version-4",
+      "photo-voltaic-watts-api-version-5",
+      "average-utility-rate-by-census-region-api",
+      "average-utility-rate-by-utility-boundary-api",
+      "utility-rate-database-api",
+      "rooftop-solar-challenge-rsc-database"
+    ],
+    "xls": [
+      "community-solar-scenario-tool-csst",
+      "cost-of-renewable-energy-spreadsheet-tool-crest",
+      "photo-voltaic-jobs-and-economic-development-impact-pv-jedi",
+      "green-button-data"
+    ],
+    "web": [
+      "database-of-state-incentives-for-renewables-efficiency",
+      "solar-roadmap",
+      "solar-energy-environmental-mapper",
+      "solar-prospector",
+      "open-pv-project",
+      "photo-voltaic-data-acquisition-application",
+      "photo-voltaic-watts-pvwatts"
+    ],
+    "application": [
+      "system-advisor-model-sam"
+    ],
+    "portal": [
+      "system-advisor-model-sam",
+      "energy-information-administration-api",
+      "openei"
+    ],
+    "sdk": [
+      "system-advisor-model-sam"
+    ],
+    "gis": [
+      "mapsearch",
+      "solar-and-wind-energy-resource-assessment-swera-model"
+    ],
+    "pdf": [
+      "solar-deployment-system-solar-ds"
+    ],
+    "xml": [
+      "green-button-data"
+    ]
+  }
 }
