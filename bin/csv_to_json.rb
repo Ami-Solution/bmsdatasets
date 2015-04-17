@@ -57,7 +57,12 @@ class CsvToJson
       end
     end
 
-    {'datasets' => datasets, 'categories' => categories, 'tags' => tags}
+    {
+      'datasets'	=> datasets,
+      'index_source'	=> datasets.values,
+      'categories'	=> categories,
+      'tags'		=> tags
+    }
   end
 
 end
@@ -104,6 +109,22 @@ elsif __FILE__ == $0 && 0 == ARGV.length
       }.each {|key, arry|
         assert_equal arry, dset[key], "FAILED ON KEY: #{key}"
       }
+    end
+
+    def test_array
+      array = @result['index_source']
+
+      assert_instance_of Array, array
+      assert_equal 27, array.size
+
+      # a sample dataset has all the fields
+      dset = array[0]
+      %w(status sources category title summary description value tags
+       link query contact identifier).each do |header|
+        assert_equal true,
+                     dset.include?(header),
+                     "MISSING HEADER: #{header}"
+      end
     end
 
     def test_build_id
