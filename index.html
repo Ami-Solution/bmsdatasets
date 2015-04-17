@@ -1,14 +1,22 @@
 ---
 layout: default
 ---
-<section class="search-section">
+<section class="search-section" onsubmit="(function(){return false})()">
   <div class="wrapper search-content">
-    <h1 class="tagline"><span class="text-filter">Start a project with real datasets<br/> from the Department of Energy</span></h1>
-    <form>
-      <label><span class="text-filter">Search Datasets:</span>
-        <input type="text" id="search-input" placeholder="Search...">
+    <h1 class="tagline">
+      <div class="text-filter">Start a project with real datasets</div>
+      <div class="text-filter">from the Department of Energy</div>
+    </h1>
+    <form id="search_form">
+      <label>
+        <div class="text-filter">Search Datasets:</div>
+        <input type="text" id="search-input" placeholder="Search..."
+               size="40" maxlength="32" />
+        <input type="reset" id="reset-input" />
       </label>
-      <ul id="results-container"></ul>
+
+      <ul id="results-container">
+      </ul>
     </form>
   </div>
 </section>
@@ -47,4 +55,5 @@ template.
 
 <script type="text/javascript" src="js/lib/jquery-1.11.2.min.js"></script>
 <script type="text/javascript" src="js/lib/handlebars-v3.0.1.js"></script>
+<script type="text/javascript" src="js/lib/fuse.min.js"></script>
 <script type="text/javascript" src="js/app.js"></script>

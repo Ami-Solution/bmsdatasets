@@ -326,6 +326,11 @@ pre {
       .post-content h4 {
         font-size: 18px; } }
 
+#reset-input {
+    border: 2px outset;
+    width: initial;
+}
+
 .search-section {
   width: 100%;
   background: url(../img/brookhaven-solar.jpg);
@@ -335,7 +340,7 @@ pre {
   .search-section input {
     font-size: 24px;
     padding: 10px;
-    width: 100%; }
+  }
   .search-section .tagline {
     font-size: 38px;
     padding: 0px 0 40px;
