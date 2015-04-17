@@ -52,28 +52,34 @@ jQuery(document).ready(function() {
             caseSensitive: false,
             includeScore: true,
             shouldSort: true,
-            keys: ['description']
+            keys: ['title', 'summary', 'description']
         };
         var fuse = new Fuse(list, options);
         var input = jQuery('#search-input');
 
         var onInputChange = function(query) {
             var searchResults = fuse.search(query);
+            var sorted = searchResults
+                .sort(function(a, b) { return b.score - a.score; })
+                .map(function(result) {
+                    // round search relevance to 2 decimal places
+                    result.item.relevance =
+                        +(Math.round(result.score + "e+2")  + "e-2");
 
-            console.log(
-                'COUNT:', searchResults.length
-            );
+                    return result.item;
+                });
+            var record = {
+                category: ('Number of search results: ' + searchResults.length),
+                datasets: sorted
+            }
+            var renderedHtml = template(record);
 
             container.text('');
-            searchResults.map(function(result) {
-                var record = {
-                    category: result.score,
-                    datasets: [result.item]
-                }
+            container.append(renderedHtml);
 
-                var renderedHtml = template(record);
-                container.append(renderedHtml);
-            });
+            // console.log(
+            //     'COUNT:', sorted.length
+            // );
         };
 
         var lastVal = '';

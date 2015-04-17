@@ -12,7 +12,7 @@ layout: default
         <div class="text-filter">Search Datasets:</div>
         <input type="text" id="search-input" placeholder="Search..."
                size="40" maxlength="32" />
-        <input type="reset" id="reset-input" />
+        <input type="reset" id="reset-input" value="Clear Search" />
       </label>
 
       <ul id="results-container">
@@ -41,7 +41,12 @@ template.
       <div class="post-preview">
         <h3><a class="post-link"
                href="show.html?title_id={{title_id}}">{{title}}</a></h3>
-        <p>{{summary}}</p>
+        {{#if relevance}}
+        <p class="post-relevance">Search relevance:
+          <span class="post-relevance-score">{{relevance}}</span>/1.00
+        </p>
+        {{/if}}
+        <p class="post-summary">{{summary}}</p>
         {{#if link}}
         <a href="{{link}}">See Data &gt;&gt;</a>
         {{/if}}
