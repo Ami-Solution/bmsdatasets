@@ -1,12 +1,12 @@
 # Site settings
 title: Solar Datasets
-email: solardatasets@kimberlymunoz.com
+email: bso@alum.mit.edu.nospam
 description: > # this means to ignore newlines until "baseurl:"
   Find datasets from the Department of Energy
   to hack on your latest project.
   This project is not associated with the Department of Energy.
 baseurl: "/SolarDatasets" # the subpath of your site, e.g. /blog/
-url: "http://kimberlymunoz.github.io/solardatasets" # the base hostname & protocol for your site
+url: "https://energydemo.github.io/SolarDatasets" # the base hostname & protocol for your site
 twitter_username: Energy
 #github_username:  jekyll
 permalink: /:title.html
