@@ -60,7 +60,6 @@ jQuery(document).ready(function() {
         var onInputChange = function(query) {
             var searchResults = fuse.search(query);
             var sorted = searchResults
-                .sort(function(a, b) { return b.score - a.score; })
                 .map(function(result) {
                     // round search relevance to 2 decimal places
                     result.item.relevance =
