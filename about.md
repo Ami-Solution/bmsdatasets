@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This website contains datasets and analysis tools for solar and alternative energy provided by the Department of Energy’s SunShot Initiative, the National Renewable Energy Laboratory (NREL).
+This website contains datasets on energy use and building operations and analysis tools for buildings-related datasets provided or collected by the U.S. Department of Energy [Building Technologies Office](http://www.energy.gov/eere/buildings/building-technologies-office). All data made available here are subject to the license terms, if any, specified by the original owners or stewards of the data.
 
-[The original data can be found on a pdf.](https://www.dropbox.com/s/oimrldon86gr12d/62805_NRELtoolsmodelcheatsheet_final.pdf)
+Additional data might be found by visiting [data.gov](http://www.data.gov), the home of the U.S. Government's open data.
