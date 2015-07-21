@@ -80,6 +80,26 @@
       "contact": null,
       "identifier": null
     },
+    "long-term-data-on-3-office-air-handling-units": {
+      "category_id": "building-operations-data",
+      "title_id": "long-term-data-on-3-office-air-handling-units",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Building Operations Data",
+      "title": "Long-term data on 3 office air-handling units",
+      "summary": "Includes data on indoor/outdoor environmental conditions, supply/make up air conditions, and VAV box operations, at 1 minutes time resolution from 2014-2015. Raw data in the ZIP file are in CSV format.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "csv"
+      ],
+      "link": "http://en.openei.org/datasets/dataset/long-term-data-on-3-office-air-handling-units",
+      "query": null,
+      "contact": null,
+      "identifier": null
+    },
     "enernoc-2012-commercial-energy-consumption-data": {
       "category_id": "building-operations-data",
       "title_id": "enernoc-2012-commercial-energy-consumption-data",
@@ -286,6 +306,26 @@
     },
     {
       "category_id": "building-operations-data",
+      "title_id": "long-term-data-on-3-office-air-handling-units",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Building Operations Data",
+      "title": "Long-term data on 3 office air-handling units",
+      "summary": "Includes data on indoor/outdoor environmental conditions, supply/make up air conditions, and VAV box operations, at 1 minutes time resolution from 2014-2015. Raw data in the ZIP file are in CSV format.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "csv"
+      ],
+      "link": "http://en.openei.org/datasets/dataset/long-term-data-on-3-office-air-handling-units",
+      "query": null,
+      "contact": null,
+      "identifier": null
+    },
+    {
+      "category_id": "building-operations-data",
       "title_id": "enernoc-2012-commercial-energy-consumption-data",
       "status": true,
       "sources": [
@@ -413,6 +453,7 @@
       "long-term-electricity-and-gas-consumption-for-lbnl-building-74",
       "long-term-energy-environment-data-for-ornl-research-house-3",
       "long-term-energy-consumption-outdoor-air-temperature-for-11-commercial-buildings",
+      "long-term-data-on-3-office-air-handling-units",
       "enernoc-2012-commercial-energy-consumption-data",
       "openbms",
       "gsa-energy-usage-analysis-system"
@@ -437,6 +478,7 @@
     ],
     "csv": [
       "long-term-energy-consumption-outdoor-air-temperature-for-11-commercial-buildings",
+      "long-term-data-on-3-office-air-handling-units",
       "enernoc-2012-commercial-energy-consumption-data",
       "openbms"
     ],
