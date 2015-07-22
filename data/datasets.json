@@ -29,7 +29,7 @@
       ],
       "category": "Building Operations Data",
       "title": "Long-term electricity and gas consumption for LBNL Building 74",
-      "summary": "15 minute electricity and 5 minute natural gas consumption data for Building 74 on the Lawrence Berkeley National Lab campus. Raw data in XLSX format",
+      "summary": "15 minute electricity and 5 minute natural gas consumption data for Building 74 on the Lawrence Berkeley National Lab campus. Raw data in XLSX format.",
       "description": null,
       "value": null,
       "tags": [
@@ -191,7 +191,7 @@
       ],
       "category": "Developer Resources",
       "title": "EIA Data API",
-      "summary": "Access projected residential/commercial building stock and energy consumption (down to end use and technology type) for EIA Annual Energy Outlook, 2009-2040",
+      "summary": "Access projected residential/commercial building stock and energy consumption (down to end use and technology type) for EIA Annual Energy Outlook, 2009-2040.",
       "description": null,
       "value": null,
       "tags": [
@@ -211,7 +211,7 @@
       ],
       "category": "Developer Resources",
       "title": "OpenEIS",
-      "summary": "Hosts open access algorithms for application to one's own building operations data",
+      "summary": "Hosts open access algorithms for application to one's own building operations data.",
       "description": null,
       "value": null,
       "tags": [
@@ -222,15 +222,15 @@
       "contact": null,
       "identifier": null
     },
-    "buildings-performance-database": {
+    "building-performance-database-api": {
       "category_id": "developer-resources",
-      "title_id": "buildings-performance-database",
+      "title_id": "building-performance-database-api",
       "status": true,
       "sources": [
         "sunshot"
       ],
       "category": "Developer Resources",
-      "title": "Buildings Performance Database",
+      "title": "Building Performance Database API",
       "summary": "The Building Performance Database (BPD) is the nation's largest dataset of information about the energy-related characteristics of commercial and residential buildings. The BPD allows users to explore the data across real estate sectors and regions, and compare various physical and operational characteristics to gain a better understanding of market conditions and trends in energy performance.  This site has up-to-date documentation of the BPD Application Programming Interface (API).  The API enables the sharing of content and data between applications, meaning that third party web or mobile applications can be dynamically updated with BPD data.",
       "description": null,
       "value": null,
@@ -273,7 +273,7 @@
       ],
       "category": "Building Operations Data",
       "title": "Long-term electricity and gas consumption for LBNL Building 74",
-      "summary": "15 minute electricity and 5 minute natural gas consumption data for Building 74 on the Lawrence Berkeley National Lab campus. Raw data in XLSX format",
+      "summary": "15 minute electricity and 5 minute natural gas consumption data for Building 74 on the Lawrence Berkeley National Lab campus. Raw data in XLSX format.",
       "description": null,
       "value": null,
       "tags": [
@@ -435,7 +435,7 @@
       ],
       "category": "Developer Resources",
       "title": "EIA Data API",
-      "summary": "Access projected residential/commercial building stock and energy consumption (down to end use and technology type) for EIA Annual Energy Outlook, 2009-2040",
+      "summary": "Access projected residential/commercial building stock and energy consumption (down to end use and technology type) for EIA Annual Energy Outlook, 2009-2040.",
       "description": null,
       "value": null,
       "tags": [
@@ -455,7 +455,7 @@
       ],
       "category": "Developer Resources",
       "title": "OpenEIS",
-      "summary": "Hosts open access algorithms for application to one's own building operations data",
+      "summary": "Hosts open access algorithms for application to one's own building operations data.",
       "description": null,
       "value": null,
       "tags": [
@@ -468,13 +468,13 @@
     },
     {
       "category_id": "developer-resources",
-      "title_id": "buildings-performance-database",
+      "title_id": "building-performance-database-api",
       "status": true,
       "sources": [
         "sunshot"
       ],
       "category": "Developer Resources",
-      "title": "Buildings Performance Database",
+      "title": "Building Performance Database API",
       "summary": "The Building Performance Database (BPD) is the nation's largest dataset of information about the energy-related characteristics of commercial and residential buildings. The BPD allows users to explore the data across real estate sectors and regions, and compare various physical and operational characteristics to gain a better understanding of market conditions and trends in energy performance.  This site has up-to-date documentation of the BPD Application Programming Interface (API).  The API enables the sharing of content and data between applications, meaning that third party web or mobile applications can be dynamically updated with BPD data.",
       "description": null,
       "value": null,
@@ -504,7 +504,7 @@
     "Developer Resources": [
       "eia-data-api",
       "openeis",
-      "buildings-performance-database"
+      "building-performance-database-api"
     ]
   },
   "tags": {
@@ -529,7 +529,7 @@
     "api": [
       "openbms",
       "eia-data-api",
-      "buildings-performance-database"
+      "building-performance-database-api"
     ],
     "platform": [
       "openeis"
