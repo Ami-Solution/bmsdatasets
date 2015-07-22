@@ -221,6 +221,26 @@
       "query": null,
       "contact": null,
       "identifier": null
+    },
+    "buildings-performance-database": {
+      "category_id": "developer-resources",
+      "title_id": "buildings-performance-database",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Developer Resources",
+      "title": "Buildings Performance Database",
+      "summary": "The Building Performance Database (BPD) is the nation's largest dataset of information about the energy-related characteristics of commercial and residential buildings. The BPD allows users to explore the data across real estate sectors and regions, and compare various physical and operational characteristics to gain a better understanding of market conditions and trends in energy performance.  This site has up-to-date documentation of the BPD Application Programming Interface (API).  The API enables the sharing of content and data between applications, meaning that third party web or mobile applications can be dynamically updated with BPD data.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "api"
+      ],
+      "link": "https://sites.google.com/a/lbl.gov/bpd-api-documentation/",
+      "query": null,
+      "contact": null,
+      "identifier": null
     }
   },
   "index_source": [
@@ -445,6 +465,26 @@
       "query": null,
       "contact": null,
       "identifier": null
+    },
+    {
+      "category_id": "developer-resources",
+      "title_id": "buildings-performance-database",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Developer Resources",
+      "title": "Buildings Performance Database",
+      "summary": "The Building Performance Database (BPD) is the nation's largest dataset of information about the energy-related characteristics of commercial and residential buildings. The BPD allows users to explore the data across real estate sectors and regions, and compare various physical and operational characteristics to gain a better understanding of market conditions and trends in energy performance.  This site has up-to-date documentation of the BPD Application Programming Interface (API).  The API enables the sharing of content and data between applications, meaning that third party web or mobile applications can be dynamically updated with BPD data.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "api"
+      ],
+      "link": "https://sites.google.com/a/lbl.gov/bpd-api-documentation/",
+      "query": null,
+      "contact": null,
+      "identifier": null
     }
   ],
   "categories": {
@@ -463,7 +503,8 @@
     ],
     "Developer Resources": [
       "eia-data-api",
-      "openeis"
+      "openeis",
+      "buildings-performance-database"
     ]
   },
   "tags": {
@@ -487,7 +528,8 @@
     ],
     "api": [
       "openbms",
-      "eia-data-api"
+      "eia-data-api",
+      "buildings-performance-database"
     ],
     "platform": [
       "openeis"
