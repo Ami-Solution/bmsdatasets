@@ -20,6 +20,26 @@
       "contact": "Jared Langevin",
       "identifier": null
     },
+    "long-term-occupancy-data-for-a-residential-and-commercial-building": {
+      "category_id": "building-operations-data",
+      "title_id": "long-term-occupancy-data-for-a-residential-and-commercial-building",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Building Operations Data",
+      "title": "Long-term occupancy data for a residential and commercial building",
+      "summary": "Includes information about occupancy status of three rooms in a residential home and six commercial offices.  The residential and commercial occupancy data files cover one moth with a maximum time interval of approximately fifteen minutes.  Raw data are in CSV format.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "csv"
+      ],
+      "link": "http://en.openei.org/datasets/dataset/long-term-occupancy-data-for-residential-and-commercial-building",
+      "query": null,
+      "contact": "Bing Dong",
+      "identifier": null
+    },
     "long-term-electricity-and-gas-consumption-for-lbnl-building-74": {
       "category_id": "building-operations-data",
       "title_id": "long-term-electricity-and-gas-consumption-for-lbnl-building-74",
@@ -266,6 +286,26 @@
     },
     {
       "category_id": "building-operations-data",
+      "title_id": "long-term-occupancy-data-for-a-residential-and-commercial-building",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Building Operations Data",
+      "title": "Long-term occupancy data for a residential and commercial building",
+      "summary": "Includes information about occupancy status of three rooms in a residential home and six commercial offices.  The residential and commercial occupancy data files cover one moth with a maximum time interval of approximately fifteen minutes.  Raw data are in CSV format.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "csv"
+      ],
+      "link": "http://en.openei.org/datasets/dataset/long-term-occupancy-data-for-residential-and-commercial-building",
+      "query": null,
+      "contact": "Bing Dong",
+      "identifier": null
+    },
+    {
+      "category_id": "building-operations-data",
       "title_id": "long-term-electricity-and-gas-consumption-for-lbnl-building-74",
       "status": true,
       "sources": [
@@ -490,6 +530,7 @@
   "categories": {
     "Building Operations Data": [
       "one-year-occupant-behavior-environment-data-for-medium-u-s-office",
+      "long-term-occupancy-data-for-a-residential-and-commercial-building",
       "long-term-electricity-and-gas-consumption-for-lbnl-building-74",
       "long-term-energy-environment-data-for-ornl-research-house-3",
       "long-term-energy-consumption-outdoor-air-temperature-for-11-commercial-buildings",
@@ -511,17 +552,18 @@
     "txt": [
       "one-year-occupant-behavior-environment-data-for-medium-u-s-office"
     ],
+    "csv": [
+      "long-term-occupancy-data-for-a-residential-and-commercial-building",
+      "long-term-energy-consumption-outdoor-air-temperature-for-11-commercial-buildings",
+      "long-term-data-on-3-office-air-handling-units",
+      "enernoc-2012-commercial-energy-consumption-data",
+      "openbms"
+    ],
     "xlsx": [
       "long-term-electricity-and-gas-consumption-for-lbnl-building-74",
       "long-term-energy-environment-data-for-ornl-research-house-3",
       "gsa-energy-usage-analysis-system",
       "buildings-energy-data-book"
-    ],
-    "csv": [
-      "long-term-energy-consumption-outdoor-air-temperature-for-11-commercial-buildings",
-      "long-term-data-on-3-office-air-handling-units",
-      "enernoc-2012-commercial-energy-consumption-data",
-      "openbms"
     ],
     "green button": [
       "enernoc-2012-commercial-energy-consumption-data"
