@@ -40,6 +40,26 @@
       "contact": "Bing Dong",
       "identifier": null
     },
+    "multifamily-programmable-thermostat-data": {
+      "category_id": "building-operations-data",
+      "title_id": "multifamily-programmable-thermostat-data",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Building Operations Data",
+      "title": "Multifamily programmable thermostat data",
+      "summary": "Time series temperature, relative humidity, and heating system state for 79 apartments spanning two winters and one summer.  Raw data in CSV format.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "csv"
+      ],
+      "link": "http://en.openei.org/datasets/dataset/multifamily-programmable-thermostat-data",
+      "query": null,
+      "contact": "Bryan Urban",
+      "identifier": null
+    },
     "long-term-electricity-and-gas-consumption-for-lbnl-building-74": {
       "category_id": "building-operations-data",
       "title_id": "long-term-electricity-and-gas-consumption-for-lbnl-building-74",
@@ -306,6 +326,26 @@
     },
     {
       "category_id": "building-operations-data",
+      "title_id": "multifamily-programmable-thermostat-data",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Building Operations Data",
+      "title": "Multifamily programmable thermostat data",
+      "summary": "Time series temperature, relative humidity, and heating system state for 79 apartments spanning two winters and one summer.  Raw data in CSV format.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "csv"
+      ],
+      "link": "http://en.openei.org/datasets/dataset/multifamily-programmable-thermostat-data",
+      "query": null,
+      "contact": "Bryan Urban",
+      "identifier": null
+    },
+    {
+      "category_id": "building-operations-data",
       "title_id": "long-term-electricity-and-gas-consumption-for-lbnl-building-74",
       "status": true,
       "sources": [
@@ -531,6 +571,7 @@
     "Building Operations Data": [
       "one-year-occupant-behavior-environment-data-for-medium-u-s-office",
       "long-term-occupancy-data-for-a-residential-and-commercial-building",
+      "multifamily-programmable-thermostat-data",
       "long-term-electricity-and-gas-consumption-for-lbnl-building-74",
       "long-term-energy-environment-data-for-ornl-research-house-3",
       "long-term-energy-consumption-outdoor-air-temperature-for-11-commercial-buildings",
@@ -554,6 +595,7 @@
     ],
     "csv": [
       "long-term-occupancy-data-for-a-residential-and-commercial-building",
+      "multifamily-programmable-thermostat-data",
       "long-term-energy-consumption-outdoor-air-temperature-for-11-commercial-buildings",
       "long-term-data-on-3-office-air-handling-units",
       "enernoc-2012-commercial-energy-consumption-data",
