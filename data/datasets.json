@@ -9,7 +9,7 @@
       ],
       "category": "Building Operations Data",
       "title": "One year occupant behavior/environment data for medium U.S. office",
-      "summary": "One year of longitudinal data (15-minute interval) on local thermal conditions, related behaviors, and comfort of 24 occupants of a medium-sized office building in Philadelphia, PA. Raw data in TXT format.",
+      "summary": "One year of longitudinal data (fifteen minute interval) on local thermal conditions, related behaviors, and comfort of twenty-four occupants of a medium-sized office building in Philadelphia, PA.  Raw data in TXT format.",
       "description": null,
       "value": null,
       "tags": [
@@ -29,7 +29,7 @@
       ],
       "category": "Building Operations Data",
       "title": "Long-term occupancy data for a residential and commercial building",
-      "summary": "Includes information about occupancy status of three rooms in a residential home and six commercial offices. The residential and commercial occupancy data files cover one month with a maximum time interval of approximately 15 minutes. Raw data are in CSV format.",
+      "summary": "Includes information about occupancy status of three rooms in a residential home and six commercial offices.  The residential and commercial occupancy data files cover one moth with a maximum time interval of approximately fifteen minutes.  Raw data are in CSV format.",
       "description": null,
       "value": null,
       "tags": [
@@ -38,26 +38,6 @@
       "link": "http://en.openei.org/datasets/dataset/long-term-occupancy-data-for-residential-and-commercial-building",
       "query": null,
       "contact": "Bing Dong",
-      "identifier": null
-    },
-    "multifamily-programmable-thermostat-data": {
-      "category_id": "building-operations-data",
-      "title_id": "multifamily-programmable-thermostat-data",
-      "status": true,
-      "sources": [
-        "sunshot"
-      ],
-      "category": "Building Operations Data",
-      "title": "Multifamily programmable thermostat data",
-      "summary": "Time-series temperature, relative humidity, and heating system state for 79 apartments spanning two winters and one summer. Raw data in CSV format.",
-      "description": null,
-      "value": null,
-      "tags": [
-        "csv"
-      ],
-      "link": "http://en.openei.org/datasets/dataset/multifamily-programmable-thermostat-data",
-      "query": null,
-      "contact": "Bryan Urban",
       "identifier": null
     },
     "long-term-electricity-and-gas-consumption-for-lbnl-building-74": {
@@ -89,7 +69,7 @@
       ],
       "category": "Building Operations Data",
       "title": "Long-term energy/environment data for ORNL Research House # 3",
-      "summary": "Oak Ridge National Laboratory, Building Technologies Research and Integration Center, Campbell Creek Research House #3 data for 2013-2014. Contains end use breakdowns of energy use and various indoor environmental conditions collected at 15 minute intervals. Raw data in XLSX format.",
+      "summary": "Oak Ridge National Laboratory, Building Technologies Research and Integration Center, Campbell Creek Research House #3 data for 2013-2014. Contains end use breakdowns of energy use and various indoor environmental conditions collected at a 15 minute time stamp.  Raw data in XLSX format.",
       "description": null,
       "value": null,
       "tags": [
@@ -109,7 +89,7 @@
       ],
       "category": "Building Operations Data",
       "title": "Long-term energy consumption & outdoor air temperature for 11 commercial buildings",
-      "summary": "Hourly energy consumption and outdoor air temperature data for 11 commercial buildings (office/retail). Raw data in CSV format.",
+      "summary": "Hourly energy consumption and outdoor air temperature data for 11 commercial buildings (office/retail).  Raw data in CSV format.",
       "description": null,
       "value": null,
       "tags": [
@@ -129,7 +109,7 @@
       ],
       "category": "Building Operations Data",
       "title": "Long-term data on 3 office air-handling units",
-      "summary": "Includes data on indoor/outdoor environmental conditions, supply/make up air conditions, and VAV box operations, at 1 minute time resolution from 2014-2015. Raw data in the ZIP file are in CSV format.",
+      "summary": "Includes data on indoor/outdoor environmental conditions, supply/make up air conditions, and VAV box operations, at 1 minutes time resolution from 2014-2015. Raw data in the ZIP file are in CSV format.",
       "description": null,
       "value": null,
       "tags": [
@@ -149,7 +129,7 @@
       ],
       "category": "Building Operations Data",
       "title": "ENERNOC 2012 Commercial Energy Consumption Data",
-      "summary": "5-minute electricity consumption for 100 anonymized commercial and industrial sites. Metadata includes randomized latitude and longitude, facility square footage, and industry. Raw data in Green Button and CSV formats.",
+      "summary": "5-minute electricity consumption for 100 anonymized commercial and industrial sites. Metadata includes randomized lat/lng, facility square footage and industry. Raw data in GreenButton and CSV formats.",
       "description": null,
       "value": null,
       "tags": [
@@ -170,7 +150,7 @@
       ],
       "category": "Building Operations Data",
       "title": "OpenBMS ",
-      "summary": "BMS data (energy/environment) for various buildings on the UC Berkeley campus. Data may be downloaded in CSV format or accessed via an API. Further documentation at http://www.cs.berkeley.edu/~stevedh/smap2/intro.html#front-ends.",
+      "summary": "BMS data (energy/environment) for various buildings on the UC-Berkeley campus.  Data may be downloaded in CSV format or accessed via an API.  Further documentation at http://www.cs.berkeley.edu/~stevedh/smap2/intro.html#front-ends.",
       "description": null,
       "value": null,
       "tags": [
@@ -191,7 +171,7 @@
       ],
       "category": "Building Operations Data",
       "title": "GSA Energy Usage Analysis System",
-      "summary": "The EUAS application is a web-based system that serves the Energy Center of Expertise, under the Office of Facilities Management and Service Programs. EUAS is used for tracking energy details for various energy sources, namely electricity, natural gas, oil, chilled water, steam, and renewable energy. Contains monthly energy consumption data as well as Heating and Cooling Degree data from associated weather stations, in XLSX format.",
+      "summary": "The EUAS application is a web based system which serves Energy Center of Expertise, under the Office of Facilitates Management and Service Programs. EUAS is used for tracking energy details for various energy sources namely electricity, natural gas, oil, chilled water, steam and renewable energy.  Contains monthly energy consumption data as well as Heating and Cooling degree data from associated weather stations, in XLSX format.",
       "description": null,
       "value": null,
       "tags": [
@@ -218,6 +198,126 @@
         "xlsx"
       ],
       "link": "http://buildingsdatabook.eren.doe.gov",
+      "query": null,
+      "contact": null,
+      "identifier": null
+    },
+    "energy-api-browser": {
+      "category_id": "developer-resources",
+      "title_id": "energy-api-browser",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Developer Resources",
+      "title": "Energy API browser",
+      "summary": "Visual browser from the National Renewable Energy Laboratory of available energy data APIs.  The browser allows you to find new energy APIs based on keywords, so you can easily find data services that cover wind energy, building efficiency, Energy Star, or a host of other topics. API data are also available as a download.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "api"
+      ],
+      "link": "http://en.openei.org/apps/api-browser/",
+      "query": null,
+      "contact": null,
+      "identifier": null
+    },
+    "lbnl-buildings-apis": {
+      "category_id": "developer-resources",
+      "title_id": "lbnl-buildings-apis",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Developer Resources",
+      "title": "LBNL Buildings APIs",
+      "summary": "This site provides everything website developers need to access Lawrence Berkeley National Lab's APIs for analyzing energy use in residential and commercial buildings.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "api"
+      ],
+      "link": "https://developers.buildingsapi.lbl.gov",
+      "query": null,
+      "contact": null,
+      "identifier": null
+    },
+    "building-performance-database-api": {
+      "category_id": "developer-resources",
+      "title_id": "building-performance-database-api",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Developer Resources",
+      "title": "Building Performance Database API",
+      "summary": "The Building Performance Database (BPD) is the nation's largest dataset of information about the energy-related characteristics of commercial and residential buildings. The BPD allows users to explore the data across real estate sectors and regions, and compare various physical and operational characteristics to gain a better understanding of market conditions and trends in energy performance.  This site has up-to-date documentation of the BPD Application Programming Interface (API).  The API enables the sharing of content and data between applications, meaning that third party web or mobile applications can be dynamically updated with BPD data.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "api"
+      ],
+      "link": "https://sites.google.com/a/lbl.gov/bpd-api-documentation/",
+      "query": null,
+      "contact": null,
+      "identifier": null
+    },
+    "technology-performance-exchange-api": {
+      "category_id": "developer-resources",
+      "title_id": "technology-performance-exchange-api",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Developer Resources",
+      "title": "Technology Performance Exchange API",
+      "summary": "The Technology Performance Exchange API provides programmatic access to product and performance data.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "api"
+      ],
+      "link": "https://performance.nrel.gov/developers",
+      "query": null,
+      "contact": null,
+      "identifier": null
+    },
+    "building-components-library-api": {
+      "category_id": "developer-resources",
+      "title_id": "building-components-library-api",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Developer Resources",
+      "title": "Building Components Library API",
+      "summary": "The Building Components Library is the U.S. Department of Energy's comprehensive online searchable library of energy modeling building blocks and descriptive metadata. ",
+      "description": null,
+      "value": null,
+      "tags": [
+        "api"
+      ],
+      "link": "https://bcl.nrel.gov/developer",
+      "query": null,
+      "contact": null,
+      "identifier": null
+    },
+    "national-residential-efficiency-measures-database": {
+      "category_id": "developer-resources",
+      "title_id": "national-residential-efficiency-measures-database",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Developer Resources",
+      "title": "National Residential Efficiency Measures Database",
+      "summary": "Here you will find tools intended to help software application developers access the data in the National Residential Efficiency Measures Database. This database of retrofit measures and associated costs can be used by software applications that evaluate residential efficiency measures. ",
+      "description": null,
+      "value": null,
+      "tags": [
+        "xml"
+      ],
+      "link": "http://www.nrel.gov/ap/retrofits/developer_tools.cfm",
       "query": null,
       "contact": null,
       "identifier": null
@@ -251,33 +351,13 @@
       ],
       "category": "Developer Resources",
       "title": "OpenEIS",
-      "summary": "Hosts open-access algorithms for application to one's own building operations data.",
-      "description": null,
-      "value": null,
-      "tags": [
-        "platform"
-      ],
-      "link": "https://github.com/VOLTTRON/openeis",
-      "query": null,
-      "contact": null,
-      "identifier": null
-    },
-    "building-performance-database-api": {
-      "category_id": "developer-resources",
-      "title_id": "building-performance-database-api",
-      "status": true,
-      "sources": [
-        "sunshot"
-      ],
-      "category": "Developer Resources",
-      "title": "Building Performance Database API",
-      "summary": "The Building Performance Database (BPD) is the nation's largest dataset of information about the energy-related characteristics of commercial and residential buildings. The BPD allows users to explore the data across real estate sectors and regions, and compare various physical and operational characteristics to gain a better understanding of market conditions and trends in energy performance. This site has up-to-date documentation of the BPD Application Programming Interface (API). The API enables the sharing of content and data between applications, meaning that third party web or mobile applications can be dynamically updated with BPD data.",
+      "summary": "Hosts open access algorithms for application to one's own building operations data.",
       "description": null,
       "value": null,
       "tags": [
         "api"
       ],
-      "link": "https://sites.google.com/a/lbl.gov/bpd-api-documentation/",
+      "link": "https://github.com/VOLTTRON/openeis",
       "query": null,
       "contact": null,
       "identifier": null
@@ -293,7 +373,7 @@
       ],
       "category": "Building Operations Data",
       "title": "One year occupant behavior/environment data for medium U.S. office",
-      "summary": "One year of longitudinal data (15-minute interval) on local thermal conditions, related behaviors, and comfort of 24 occupants of a medium-sized office building in Philadelphia, PA. Raw data in TXT format.",
+      "summary": "One year of longitudinal data (fifteen minute interval) on local thermal conditions, related behaviors, and comfort of twenty-four occupants of a medium-sized office building in Philadelphia, PA.  Raw data in TXT format.",
       "description": null,
       "value": null,
       "tags": [
@@ -313,7 +393,7 @@
       ],
       "category": "Building Operations Data",
       "title": "Long-term occupancy data for a residential and commercial building",
-      "summary": "Includes information about occupancy status of three rooms in a residential home and six commercial offices. The residential and commercial occupancy data files cover one month with a maximum time interval of approximately 15 minutes. Raw data are in CSV format.",
+      "summary": "Includes information about occupancy status of three rooms in a residential home and six commercial offices.  The residential and commercial occupancy data files cover one moth with a maximum time interval of approximately fifteen minutes.  Raw data are in CSV format.",
       "description": null,
       "value": null,
       "tags": [
@@ -322,26 +402,6 @@
       "link": "http://en.openei.org/datasets/dataset/long-term-occupancy-data-for-residential-and-commercial-building",
       "query": null,
       "contact": "Bing Dong",
-      "identifier": null
-    },
-    {
-      "category_id": "building-operations-data",
-      "title_id": "multifamily-programmable-thermostat-data",
-      "status": true,
-      "sources": [
-        "sunshot"
-      ],
-      "category": "Building Operations Data",
-      "title": "Multifamily programmable thermostat data",
-      "summary": "Time-series temperature, relative humidity, and heating system state for 79 apartments spanning two winters and one summer. Raw data in CSV format.",
-      "description": null,
-      "value": null,
-      "tags": [
-        "csv"
-      ],
-      "link": "http://en.openei.org/datasets/dataset/multifamily-programmable-thermostat-data",
-      "query": null,
-      "contact": "Bryan Urban",
       "identifier": null
     },
     {
@@ -373,7 +433,7 @@
       ],
       "category": "Building Operations Data",
       "title": "Long-term energy/environment data for ORNL Research House # 3",
-      "summary": "Oak Ridge National Laboratory, Building Technologies Research and Integration Center, Campbell Creek Research House #3 data for 2013-2014. Contains end use breakdowns of energy use and various indoor environmental conditions collected at 15 minute intervals. Raw data in XLSX format.",
+      "summary": "Oak Ridge National Laboratory, Building Technologies Research and Integration Center, Campbell Creek Research House #3 data for 2013-2014. Contains end use breakdowns of energy use and various indoor environmental conditions collected at a 15 minute time stamp.  Raw data in XLSX format.",
       "description": null,
       "value": null,
       "tags": [
@@ -393,7 +453,7 @@
       ],
       "category": "Building Operations Data",
       "title": "Long-term energy consumption & outdoor air temperature for 11 commercial buildings",
-      "summary": "Hourly energy consumption and outdoor air temperature data for 11 commercial buildings (office/retail). Raw data in CSV format.",
+      "summary": "Hourly energy consumption and outdoor air temperature data for 11 commercial buildings (office/retail).  Raw data in CSV format.",
       "description": null,
       "value": null,
       "tags": [
@@ -413,7 +473,7 @@
       ],
       "category": "Building Operations Data",
       "title": "Long-term data on 3 office air-handling units",
-      "summary": "Includes data on indoor/outdoor environmental conditions, supply/make up air conditions, and VAV box operations, at 1 minute time resolution from 2014-2015. Raw data in the ZIP file are in CSV format.",
+      "summary": "Includes data on indoor/outdoor environmental conditions, supply/make up air conditions, and VAV box operations, at 1 minutes time resolution from 2014-2015. Raw data in the ZIP file are in CSV format.",
       "description": null,
       "value": null,
       "tags": [
@@ -433,7 +493,7 @@
       ],
       "category": "Building Operations Data",
       "title": "ENERNOC 2012 Commercial Energy Consumption Data",
-      "summary": "5-minute electricity consumption for 100 anonymized commercial and industrial sites. Metadata includes randomized latitude and longitude, facility square footage, and industry. Raw data in Green Button and CSV formats.",
+      "summary": "5-minute electricity consumption for 100 anonymized commercial and industrial sites. Metadata includes randomized lat/lng, facility square footage and industry. Raw data in GreenButton and CSV formats.",
       "description": null,
       "value": null,
       "tags": [
@@ -454,7 +514,7 @@
       ],
       "category": "Building Operations Data",
       "title": "OpenBMS ",
-      "summary": "BMS data (energy/environment) for various buildings on the UC Berkeley campus. Data may be downloaded in CSV format or accessed via an API. Further documentation at http://www.cs.berkeley.edu/~stevedh/smap2/intro.html#front-ends.",
+      "summary": "BMS data (energy/environment) for various buildings on the UC-Berkeley campus.  Data may be downloaded in CSV format or accessed via an API.  Further documentation at http://www.cs.berkeley.edu/~stevedh/smap2/intro.html#front-ends.",
       "description": null,
       "value": null,
       "tags": [
@@ -475,7 +535,7 @@
       ],
       "category": "Building Operations Data",
       "title": "GSA Energy Usage Analysis System",
-      "summary": "The EUAS application is a web-based system that serves the Energy Center of Expertise, under the Office of Facilities Management and Service Programs. EUAS is used for tracking energy details for various energy sources, namely electricity, natural gas, oil, chilled water, steam, and renewable energy. Contains monthly energy consumption data as well as Heating and Cooling Degree data from associated weather stations, in XLSX format.",
+      "summary": "The EUAS application is a web based system which serves Energy Center of Expertise, under the Office of Facilitates Management and Service Programs. EUAS is used for tracking energy details for various energy sources namely electricity, natural gas, oil, chilled water, steam and renewable energy.  Contains monthly energy consumption data as well as Heating and Cooling degree data from associated weather stations, in XLSX format.",
       "description": null,
       "value": null,
       "tags": [
@@ -502,6 +562,126 @@
         "xlsx"
       ],
       "link": "http://buildingsdatabook.eren.doe.gov",
+      "query": null,
+      "contact": null,
+      "identifier": null
+    },
+    {
+      "category_id": "developer-resources",
+      "title_id": "energy-api-browser",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Developer Resources",
+      "title": "Energy API browser",
+      "summary": "Visual browser from the National Renewable Energy Laboratory of available energy data APIs.  The browser allows you to find new energy APIs based on keywords, so you can easily find data services that cover wind energy, building efficiency, Energy Star, or a host of other topics. API data are also available as a download.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "api"
+      ],
+      "link": "http://en.openei.org/apps/api-browser/",
+      "query": null,
+      "contact": null,
+      "identifier": null
+    },
+    {
+      "category_id": "developer-resources",
+      "title_id": "lbnl-buildings-apis",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Developer Resources",
+      "title": "LBNL Buildings APIs",
+      "summary": "This site provides everything website developers need to access Lawrence Berkeley National Lab's APIs for analyzing energy use in residential and commercial buildings.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "api"
+      ],
+      "link": "https://developers.buildingsapi.lbl.gov",
+      "query": null,
+      "contact": null,
+      "identifier": null
+    },
+    {
+      "category_id": "developer-resources",
+      "title_id": "building-performance-database-api",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Developer Resources",
+      "title": "Building Performance Database API",
+      "summary": "The Building Performance Database (BPD) is the nation's largest dataset of information about the energy-related characteristics of commercial and residential buildings. The BPD allows users to explore the data across real estate sectors and regions, and compare various physical and operational characteristics to gain a better understanding of market conditions and trends in energy performance.  This site has up-to-date documentation of the BPD Application Programming Interface (API).  The API enables the sharing of content and data between applications, meaning that third party web or mobile applications can be dynamically updated with BPD data.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "api"
+      ],
+      "link": "https://sites.google.com/a/lbl.gov/bpd-api-documentation/",
+      "query": null,
+      "contact": null,
+      "identifier": null
+    },
+    {
+      "category_id": "developer-resources",
+      "title_id": "technology-performance-exchange-api",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Developer Resources",
+      "title": "Technology Performance Exchange API",
+      "summary": "The Technology Performance Exchange API provides programmatic access to product and performance data.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "api"
+      ],
+      "link": "https://performance.nrel.gov/developers",
+      "query": null,
+      "contact": null,
+      "identifier": null
+    },
+    {
+      "category_id": "developer-resources",
+      "title_id": "building-components-library-api",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Developer Resources",
+      "title": "Building Components Library API",
+      "summary": "The Building Components Library is the U.S. Department of Energy's comprehensive online searchable library of energy modeling building blocks and descriptive metadata. ",
+      "description": null,
+      "value": null,
+      "tags": [
+        "api"
+      ],
+      "link": "https://bcl.nrel.gov/developer",
+      "query": null,
+      "contact": null,
+      "identifier": null
+    },
+    {
+      "category_id": "developer-resources",
+      "title_id": "national-residential-efficiency-measures-database",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Developer Resources",
+      "title": "National Residential Efficiency Measures Database",
+      "summary": "Here you will find tools intended to help software application developers access the data in the National Residential Efficiency Measures Database. This database of retrofit measures and associated costs can be used by software applications that evaluate residential efficiency measures. ",
+      "description": null,
+      "value": null,
+      "tags": [
+        "xml"
+      ],
+      "link": "http://www.nrel.gov/ap/retrofits/developer_tools.cfm",
       "query": null,
       "contact": null,
       "identifier": null
@@ -535,33 +715,13 @@
       ],
       "category": "Developer Resources",
       "title": "OpenEIS",
-      "summary": "Hosts open-access algorithms for application to one's own building operations data.",
-      "description": null,
-      "value": null,
-      "tags": [
-        "platform"
-      ],
-      "link": "https://github.com/VOLTTRON/openeis",
-      "query": null,
-      "contact": null,
-      "identifier": null
-    },
-    {
-      "category_id": "developer-resources",
-      "title_id": "building-performance-database-api",
-      "status": true,
-      "sources": [
-        "sunshot"
-      ],
-      "category": "Developer Resources",
-      "title": "Building Performance Database API",
-      "summary": "The Building Performance Database (BPD) is the nation's largest dataset of information about the energy-related characteristics of commercial and residential buildings. The BPD allows users to explore the data across real estate sectors and regions, and compare various physical and operational characteristics to gain a better understanding of market conditions and trends in energy performance. This site has up-to-date documentation of the BPD Application Programming Interface (API). The API enables the sharing of content and data between applications, meaning that third party web or mobile applications can be dynamically updated with BPD data.",
+      "summary": "Hosts open access algorithms for application to one's own building operations data.",
       "description": null,
       "value": null,
       "tags": [
         "api"
       ],
-      "link": "https://sites.google.com/a/lbl.gov/bpd-api-documentation/",
+      "link": "https://github.com/VOLTTRON/openeis",
       "query": null,
       "contact": null,
       "identifier": null
@@ -571,7 +731,6 @@
     "Building Operations Data": [
       "one-year-occupant-behavior-environment-data-for-medium-u-s-office",
       "long-term-occupancy-data-for-a-residential-and-commercial-building",
-      "multifamily-programmable-thermostat-data",
       "long-term-electricity-and-gas-consumption-for-lbnl-building-74",
       "long-term-energy-environment-data-for-ornl-research-house-3",
       "long-term-energy-consumption-outdoor-air-temperature-for-11-commercial-buildings",
@@ -584,9 +743,14 @@
       "buildings-energy-data-book"
     ],
     "Developer Resources": [
+      "energy-api-browser",
+      "lbnl-buildings-apis",
+      "building-performance-database-api",
+      "technology-performance-exchange-api",
+      "building-components-library-api",
+      "national-residential-efficiency-measures-database",
       "eia-data-api",
-      "openeis",
-      "building-performance-database-api"
+      "openeis"
     ]
   },
   "tags": {
@@ -595,7 +759,6 @@
     ],
     "csv": [
       "long-term-occupancy-data-for-a-residential-and-commercial-building",
-      "multifamily-programmable-thermostat-data",
       "long-term-energy-consumption-outdoor-air-temperature-for-11-commercial-buildings",
       "long-term-data-on-3-office-air-handling-units",
       "enernoc-2012-commercial-energy-consumption-data",
@@ -612,11 +775,16 @@
     ],
     "api": [
       "openbms",
+      "energy-api-browser",
+      "lbnl-buildings-apis",
+      "building-performance-database-api",
+      "technology-performance-exchange-api",
+      "building-components-library-api",
       "eia-data-api",
-      "building-performance-database-api"
-    ],
-    "platform": [
       "openeis"
+    ],
+    "xml": [
+      "national-residential-efficiency-measures-database"
     ]
   }
 }
