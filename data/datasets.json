@@ -20,6 +20,26 @@
       "contact": "Jared Langevin",
       "identifier": null
     },
+    "multifamily-programmable-thermostat-data": {
+      "category_id": "building-operations-data",
+      "title_id": "multifamily-programmable-thermostat-data",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Building Operations Data",
+      "title": "Multifamily Programmable Thermostat Data",
+      "summary": "This data set, compiled by the Fraunhofer Center for Sustainable Energy Systems, includes long-term 10-minute temperature and relative humidity data, and HVAC system state data for 79 apartments in a low-income housing complex in Revere, MA. The monitoring period spans two winters and one summer between 2011 and 2013. Data were collected as part of a project sponsored by the U.S. Department of Energy Building America program to evaluate the impact of programmable thermostat usability on occupant behavior.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "csv"
+      ],
+      "link": "http://en.openei.org/datasets/dataset/multifamily-programmable-thermostat-data",
+      "query": null,
+      "contact": "Bryan Urban",
+      "identifier": null
+    },
     "long-term-occupancy-data-for-a-residential-and-commercial-building": {
       "category_id": "building-operations-data",
       "title_id": "long-term-occupancy-data-for-a-residential-and-commercial-building",
@@ -33,7 +53,7 @@
       "description": null,
       "value": null,
       "tags": [
-        "csv"
+        "zip"
       ],
       "link": "http://en.openei.org/datasets/dataset/long-term-occupancy-data-for-residential-and-commercial-building",
       "query": null,
@@ -386,6 +406,26 @@
     },
     {
       "category_id": "building-operations-data",
+      "title_id": "multifamily-programmable-thermostat-data",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Building Operations Data",
+      "title": "Multifamily Programmable Thermostat Data",
+      "summary": "This data set, compiled by the Fraunhofer Center for Sustainable Energy Systems, includes long-term 10-minute temperature and relative humidity data, and HVAC system state data for 79 apartments in a low-income housing complex in Revere, MA. The monitoring period spans two winters and one summer between 2011 and 2013. Data were collected as part of a project sponsored by the U.S. Department of Energy Building America program to evaluate the impact of programmable thermostat usability on occupant behavior.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "csv"
+      ],
+      "link": "http://en.openei.org/datasets/dataset/multifamily-programmable-thermostat-data",
+      "query": null,
+      "contact": "Bryan Urban",
+      "identifier": null
+    },
+    {
+      "category_id": "building-operations-data",
       "title_id": "long-term-occupancy-data-for-a-residential-and-commercial-building",
       "status": true,
       "sources": [
@@ -397,7 +437,7 @@
       "description": null,
       "value": null,
       "tags": [
-        "csv"
+        "zip"
       ],
       "link": "http://en.openei.org/datasets/dataset/long-term-occupancy-data-for-residential-and-commercial-building",
       "query": null,
@@ -730,6 +770,7 @@
   "categories": {
     "Building Operations Data": [
       "one-year-occupant-behavior-environment-data-for-medium-u-s-office",
+      "multifamily-programmable-thermostat-data",
       "long-term-occupancy-data-for-a-residential-and-commercial-building",
       "long-term-electricity-and-gas-consumption-for-lbnl-building-74",
       "long-term-energy-environment-data-for-ornl-research-house-3",
@@ -758,11 +799,14 @@
       "one-year-occupant-behavior-environment-data-for-medium-u-s-office"
     ],
     "csv": [
-      "long-term-occupancy-data-for-a-residential-and-commercial-building",
+      "multifamily-programmable-thermostat-data",
       "long-term-energy-consumption-outdoor-air-temperature-for-11-commercial-buildings",
       "long-term-data-on-3-office-air-handling-units",
       "enernoc-2012-commercial-energy-consumption-data",
       "openbms"
+    ],
+    "zip": [
+      "long-term-occupancy-data-for-a-residential-and-commercial-building"
     ],
     "xlsx": [
       "long-term-electricity-and-gas-consumption-for-lbnl-building-74",
