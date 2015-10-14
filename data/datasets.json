@@ -156,7 +156,7 @@
         "csv",
         "green button"
       ],
-      "link": "http://open.enernoc.com/data/",
+      "link": "https://open-enernoc-data.s3.amazonaws.com/anon/index.html",
       "query": null,
       "contact": null,
       "identifier": null
@@ -540,7 +540,7 @@
         "csv",
         "green button"
       ],
-      "link": "http://open.enernoc.com/data/",
+      "link": "https://open-enernoc-data.s3.amazonaws.com/anon/index.html",
       "query": null,
       "contact": null,
       "identifier": null
