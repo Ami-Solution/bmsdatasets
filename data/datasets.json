@@ -20,26 +20,6 @@
       "contact": "Jared Langevin",
       "identifier": null
     },
-    "multifamily-programmable-thermostat-data": {
-      "category_id": "building-operations-data",
-      "title_id": "multifamily-programmable-thermostat-data",
-      "status": true,
-      "sources": [
-        "sunshot"
-      ],
-      "category": "Building Operations Data",
-      "title": "Multifamily Programmable Thermostat Data",
-      "summary": "This data set, compiled by the Fraunhofer Center for Sustainable Energy Systems, includes long-term 10-minute temperature and relative humidity data, and HVAC system state data for 79 apartments in a low-income housing complex in Revere, MA. The monitoring period spans two winters and one summer between 2011 and 2013. Data were collected as part of a project sponsored by the U.S. Department of Energy Building America program to evaluate the impact of programmable thermostat usability on occupant behavior.",
-      "description": null,
-      "value": null,
-      "tags": [
-        "csv"
-      ],
-      "link": "http://en.openei.org/datasets/dataset/multifamily-programmable-thermostat-data",
-      "query": null,
-      "contact": "Bryan Urban",
-      "identifier": null
-    },
     "long-term-occupancy-data-for-a-residential-and-commercial-building": {
       "category_id": "building-operations-data",
       "title_id": "long-term-occupancy-data-for-a-residential-and-commercial-building",
@@ -53,7 +33,7 @@
       "description": null,
       "value": null,
       "tags": [
-        "zip"
+        "csv"
       ],
       "link": "http://en.openei.org/datasets/dataset/long-term-occupancy-data-for-residential-and-commercial-building",
       "query": null,
@@ -156,7 +136,7 @@
         "csv",
         "green button"
       ],
-      "link": "https://open-enernoc-data.s3.amazonaws.com/anon/index.html",
+      "link": "http://open.enernoc.com/data/",
       "query": null,
       "contact": null,
       "identifier": null
@@ -381,6 +361,47 @@
       "query": null,
       "contact": null,
       "identifier": null
+    },
+    "epri-load-shape-library": {
+      "category_id": "building-operations-data",
+      "title_id": "epri-load-shape-library",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Building Operations Data",
+      "title": "EPRI Load Shape Library",
+      "summary": "Electric load shapes for individual and aggregated buildings, and energy conservation measures, for a variety of climate zones, building types, and grid operating regions. Data queries made on the website can be downloaded in CSV format.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "csv"
+      ],
+      "link": "http://loadshape.epri.com",
+      "query": null,
+      "contact": null,
+      "identifier": null
+    },
+    "neea-building-stock-assessments": {
+      "category_id": "building-operations-data",
+      "title_id": "neea-building-stock-assessments",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Building Operations Data",
+      "title": "NEEA Building Stock Assessments",
+      "summary": "Residential sub-metered electricity use data and metadata, as well as reports and metadata for commercial and industrial buildings. Raw data in plain text and Microsoft Access formats, depending on the data or metadata set.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "txt",
+        "access"
+      ],
+      "link": "http://neea.org/resource-center/regional-data-resources",
+      "query": null,
+      "contact": null,
+      "identifier": null
     }
   },
   "index_source": [
@@ -406,26 +427,6 @@
     },
     {
       "category_id": "building-operations-data",
-      "title_id": "multifamily-programmable-thermostat-data",
-      "status": true,
-      "sources": [
-        "sunshot"
-      ],
-      "category": "Building Operations Data",
-      "title": "Multifamily Programmable Thermostat Data",
-      "summary": "This data set, compiled by the Fraunhofer Center for Sustainable Energy Systems, includes long-term 10-minute temperature and relative humidity data, and HVAC system state data for 79 apartments in a low-income housing complex in Revere, MA. The monitoring period spans two winters and one summer between 2011 and 2013. Data were collected as part of a project sponsored by the U.S. Department of Energy Building America program to evaluate the impact of programmable thermostat usability on occupant behavior.",
-      "description": null,
-      "value": null,
-      "tags": [
-        "csv"
-      ],
-      "link": "http://en.openei.org/datasets/dataset/multifamily-programmable-thermostat-data",
-      "query": null,
-      "contact": "Bryan Urban",
-      "identifier": null
-    },
-    {
-      "category_id": "building-operations-data",
       "title_id": "long-term-occupancy-data-for-a-residential-and-commercial-building",
       "status": true,
       "sources": [
@@ -437,7 +438,7 @@
       "description": null,
       "value": null,
       "tags": [
-        "zip"
+        "csv"
       ],
       "link": "http://en.openei.org/datasets/dataset/long-term-occupancy-data-for-residential-and-commercial-building",
       "query": null,
@@ -540,7 +541,7 @@
         "csv",
         "green button"
       ],
-      "link": "https://open-enernoc-data.s3.amazonaws.com/anon/index.html",
+      "link": "http://open.enernoc.com/data/",
       "query": null,
       "contact": null,
       "identifier": null
@@ -765,12 +766,52 @@
       "query": null,
       "contact": null,
       "identifier": null
+    },
+    {
+      "category_id": "building-operations-data",
+      "title_id": "epri-load-shape-library",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Building Operations Data",
+      "title": "EPRI Load Shape Library",
+      "summary": "Electric load shapes for individual and aggregated buildings, and energy conservation measures, for a variety of climate zones, building types, and grid operating regions. Data queries made on the website can be downloaded in CSV format.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "csv"
+      ],
+      "link": "http://loadshape.epri.com",
+      "query": null,
+      "contact": null,
+      "identifier": null
+    },
+    {
+      "category_id": "building-operations-data",
+      "title_id": "neea-building-stock-assessments",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Building Operations Data",
+      "title": "NEEA Building Stock Assessments",
+      "summary": "Residential sub-metered electricity use data and metadata, as well as reports and metadata for commercial and industrial buildings. Raw data in plain text and Microsoft Access formats, depending on the data or metadata set.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "txt",
+        "access"
+      ],
+      "link": "http://neea.org/resource-center/regional-data-resources",
+      "query": null,
+      "contact": null,
+      "identifier": null
     }
   ],
   "categories": {
     "Building Operations Data": [
       "one-year-occupant-behavior-environment-data-for-medium-u-s-office",
-      "multifamily-programmable-thermostat-data",
       "long-term-occupancy-data-for-a-residential-and-commercial-building",
       "long-term-electricity-and-gas-consumption-for-lbnl-building-74",
       "long-term-energy-environment-data-for-ornl-research-house-3",
@@ -778,7 +819,9 @@
       "long-term-data-on-3-office-air-handling-units",
       "enernoc-2012-commercial-energy-consumption-data",
       "openbms",
-      "gsa-energy-usage-analysis-system"
+      "gsa-energy-usage-analysis-system",
+      "epri-load-shape-library",
+      "neea-building-stock-assessments"
     ],
     "Building Stock & Energy Data": [
       "buildings-energy-data-book"
@@ -796,17 +839,16 @@
   },
   "tags": {
     "txt": [
-      "one-year-occupant-behavior-environment-data-for-medium-u-s-office"
+      "one-year-occupant-behavior-environment-data-for-medium-u-s-office",
+      "neea-building-stock-assessments"
     ],
     "csv": [
-      "multifamily-programmable-thermostat-data",
+      "long-term-occupancy-data-for-a-residential-and-commercial-building",
       "long-term-energy-consumption-outdoor-air-temperature-for-11-commercial-buildings",
       "long-term-data-on-3-office-air-handling-units",
       "enernoc-2012-commercial-energy-consumption-data",
-      "openbms"
-    ],
-    "zip": [
-      "long-term-occupancy-data-for-a-residential-and-commercial-building"
+      "openbms",
+      "epri-load-shape-library"
     ],
     "xlsx": [
       "long-term-electricity-and-gas-consumption-for-lbnl-building-74",
@@ -829,6 +871,9 @@
     ],
     "xml": [
       "national-residential-efficiency-measures-database"
+    ],
+    "access": [
+      "neea-building-stock-assessments"
     ]
   }
 }
