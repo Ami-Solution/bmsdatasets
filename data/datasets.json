@@ -136,7 +136,7 @@
         "csv",
         "green button"
       ],
-      "link": "http://open.enernoc.com/data/",
+      "link": "https://open-enernoc-data.s3.amazonaws.com/anon/index.html",
       "query": null,
       "contact": null,
       "identifier": null
@@ -150,7 +150,7 @@
       ],
       "category": "Building Operations Data",
       "title": "OpenBMS ",
-      "summary": "BMS data (energy/environment) for various buildings on the UC-Berkeley campus.  Data may be downloaded in CSV format or accessed via an API.  Further documentation at http://www.cs.berkeley.edu/~stevedh/smap2/intro.html#front-ends.",
+      "summary": "BMS data (energy/environment) for various buildings on the UC-Berkeley campus. Data may be downloaded in CSV format or accessed via an API.  Further documentation at http://www.cs.berkeley.edu/~stevedh/smap2/intro.html#front-ends.",
       "description": null,
       "value": null,
       "tags": [
@@ -402,6 +402,27 @@
       "query": null,
       "contact": null,
       "identifier": null
+    },
+    "multifamily-programmable-thermostat-data": {
+      "category_id": "building-operations-data",
+      "title_id": "multifamily-programmable-thermostat-data",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Building Operations Data",
+      "title": "Multifamily Programmable Thermostat Data",
+      "summary": "This data set, compiled by the Fraunhofer Center for Sustainable Energy Systems, includes long-term 10-minute temperature and relative humidity data, and HVAC system state data for 79 apartments in a low-income housing complex in Revere, MA. The monitoring period spans two winters and one summer between 2011 and 2013. Data were collected as part of a project sponsored by the U.S. Department of Energy Building America program to evaluate the impact of programmable thermostat usability on occupant behavior.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "zip",
+        "csv"
+      ],
+      "link": "http://en.openei.org/datasets/dataset/multifamily-programmable-thermostat-data",
+      "query": null,
+      "contact": "Bryan Urban",
+      "identifier": null
     }
   },
   "index_source": [
@@ -541,7 +562,7 @@
         "csv",
         "green button"
       ],
-      "link": "http://open.enernoc.com/data/",
+      "link": "https://open-enernoc-data.s3.amazonaws.com/anon/index.html",
       "query": null,
       "contact": null,
       "identifier": null
@@ -555,7 +576,7 @@
       ],
       "category": "Building Operations Data",
       "title": "OpenBMS ",
-      "summary": "BMS data (energy/environment) for various buildings on the UC-Berkeley campus.  Data may be downloaded in CSV format or accessed via an API.  Further documentation at http://www.cs.berkeley.edu/~stevedh/smap2/intro.html#front-ends.",
+      "summary": "BMS data (energy/environment) for various buildings on the UC-Berkeley campus. Data may be downloaded in CSV format or accessed via an API.  Further documentation at http://www.cs.berkeley.edu/~stevedh/smap2/intro.html#front-ends.",
       "description": null,
       "value": null,
       "tags": [
@@ -807,6 +828,27 @@
       "query": null,
       "contact": null,
       "identifier": null
+    },
+    {
+      "category_id": "building-operations-data",
+      "title_id": "multifamily-programmable-thermostat-data",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Building Operations Data",
+      "title": "Multifamily Programmable Thermostat Data",
+      "summary": "This data set, compiled by the Fraunhofer Center for Sustainable Energy Systems, includes long-term 10-minute temperature and relative humidity data, and HVAC system state data for 79 apartments in a low-income housing complex in Revere, MA. The monitoring period spans two winters and one summer between 2011 and 2013. Data were collected as part of a project sponsored by the U.S. Department of Energy Building America program to evaluate the impact of programmable thermostat usability on occupant behavior.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "zip",
+        "csv"
+      ],
+      "link": "http://en.openei.org/datasets/dataset/multifamily-programmable-thermostat-data",
+      "query": null,
+      "contact": "Bryan Urban",
+      "identifier": null
     }
   ],
   "categories": {
@@ -821,7 +863,8 @@
       "openbms",
       "gsa-energy-usage-analysis-system",
       "epri-load-shape-library",
-      "neea-building-stock-assessments"
+      "neea-building-stock-assessments",
+      "multifamily-programmable-thermostat-data"
     ],
     "Building Stock & Energy Data": [
       "buildings-energy-data-book"
@@ -848,7 +891,8 @@
       "long-term-data-on-3-office-air-handling-units",
       "enernoc-2012-commercial-energy-consumption-data",
       "openbms",
-      "epri-load-shape-library"
+      "epri-load-shape-library",
+      "multifamily-programmable-thermostat-data"
     ],
     "xlsx": [
       "long-term-electricity-and-gas-consumption-for-lbnl-building-74",
@@ -874,6 +918,9 @@
     ],
     "access": [
       "neea-building-stock-assessments"
+    ],
+    "zip": [
+      "multifamily-programmable-thermostat-data"
     ]
   }
 }
