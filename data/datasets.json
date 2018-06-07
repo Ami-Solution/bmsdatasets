@@ -197,7 +197,7 @@
       "tags": [
         "xlsx"
       ],
-      "link": "http://buildingsdatabook.eren.doe.gov",
+      "link": "https://openei.org/doe-opendata/dataset/buildings-energy-data-book",
       "query": null,
       "contact": null,
       "identifier": null
@@ -623,7 +623,7 @@
       "tags": [
         "xlsx"
       ],
-      "link": "http://buildingsdatabook.eren.doe.gov",
+      "link": "https://openei.org/doe-opendata/dataset/buildings-energy-data-book",
       "query": null,
       "contact": null,
       "identifier": null
