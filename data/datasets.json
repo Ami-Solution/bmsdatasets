@@ -1,9 +1,6 @@
 {
-  "datasets": {
-    
-    https://raw.githubusercontent.com/laguer/JupyterDataScienceWorkflow/dataset/energydata_complete.csv
-    
-        "six-month-occupant-behavior-environment-data-for-medium-e-u-household": {
+  "datasets": {       
+     "six-month-occupant-behavior-environment-data-for-medium-e-u-household": {
       "category_id": "building-operations-data",
       "title_id": "six-month-occupant-behavior-environment-data-for-medium-e-u-household",
       "status": true,
