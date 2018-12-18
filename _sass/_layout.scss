@@ -162,7 +162,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 0;
 }
 
 .page-heading {
@@ -233,4 +233,56 @@
             font-size: 18px;
         }
     }
+}
+
+.search-section {
+    width: 100%;
+    background: url(../img/brookhaven-solar.jpg);
+    background-size: cover;
+    height: 500px;
+    color: white;
+
+    input {
+        font-size: 24px;
+        padding: 10px;
+        width: 100%;
+    }
+    .tagline {
+        font-size: 38px;
+        padding: 0px 0 40px;
+        line-height: 1.7em;
+    }
+
+    .text-filter {
+        background-color:rgba(0,0,0,0.5);
+        padding: 10px;
+    }
+}
+
+.search-content {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.featured-datasets, .post {
+    padding: $spacing-unit 0;
+}
+
+.post-preview {
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 20px;
+    border: 2px solid grey;
+    border-radius: 3px;
+}
+
+.post-list {
+    margin-left: 0;
+width: 100%;
+clear: both;
+margin-bottom: 30px;
+
 }
