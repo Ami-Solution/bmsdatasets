@@ -1,8 +1,8 @@
-# Buildings Management SystemDatasets
+# Buildings Management System Datasets
 
-[Github.com/ami-solution](https://github.com/Ami-Solution/bmsdatasets/edit/gh-pages/README.md)
+[Github.com/ami-solution/bmsdatasets](https://github.com/Ami-Solution/bmsdatasets/edit/gh-pages/README.md)
 
-[ami-solution.Github.io](https://Ami-Solution.github.io/bmsdatasets/)
+[ami-solution.Github.io/bmsdatasets](https://Ami-Solution.github.io/bmsdatasets/)
 
 This site provides a listing of datasets related to building energy use and building operations that might be useful to the  U.S. Department of Energy Building Technologies Office (BTO) research and development community.
 
