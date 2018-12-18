@@ -12,7 +12,7 @@ If an API or dataset included on this site is no longer available or is using an
 
 ## Contributions
 
-If you have a dataset you would like to see added, please fork this repository, update the database, and open a pull request. If you are unfamiliar with this process, there are many explanations and tutorails available online, such as [this one](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project). Note that the main branch for this project is `gh-pages`, not `master`.
+If you have a dataset you would like to see added, please fork this repository, update the database, and open a pull request. If you are unfamiliar with this process, there are many explanations and tutorails available online, such as [this one](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project). 
 
 If you are not comfortable contributing changes directly, you may also [open a new issue](https://github.com/Ami-Solution/bmsdatasets/issues) and provide the URL and details of the dataset you'd like to have added.
 
