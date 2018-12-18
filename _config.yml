@@ -1,12 +1,11 @@
 # Site settings
 title: Buildings Datasets
-email: bso@alum.mit.edu.nospam
 description: > # this means to ignore newlines until "baseurl:"
   Find datasets from the Department of Energy
   to hack on your latest project.
   This project is not associated with the Department of Energy.
 baseurl: "/buildingsdatasets" # the subpath of your site, e.g. /blog/
-url: "https://trynthink.github.io/buildingsdatasets" # the base hostname & protocol for your site
+url: "https://ami-solution.github.io/bmsdatasets" # the base hostname & protocol for your site
 twitter_username: Energy
 #github_username:  jekyll
 permalink: /:title.html
