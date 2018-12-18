@@ -15,7 +15,7 @@
       "tags": [
         "txt"
       ],
-      "link": "http://en.openei.org/datasets/dataset/one-year-behavior-environment-data-for-medium-office",
+      "link": "https://en.openei.org/datasets/dataset/one-year-behavior-environment-data-for-medium-office",
       "query": null,
       "contact": "Jared Langevin",
       "identifier": null
@@ -35,7 +35,7 @@
       "tags": [
         "csv"
       ],
-      "link": "http://en.openei.org/datasets/dataset/multifamily-programmable-thermostat-data",
+      "link": "https://en.openei.org/datasets/dataset/multifamily-programmable-thermostat-data",
       "query": null,
       "contact": "Bryan Urban",
       "identifier": null
@@ -55,7 +55,7 @@
       "tags": [
         "zip"
       ],
-      "link": "http://en.openei.org/datasets/dataset/long-term-occupancy-data-for-residential-and-commercial-building",
+      "link": "https://en.openei.org/datasets/dataset/long-term-occupancy-data-for-residential-and-commercial-building",
       "query": null,
       "contact": "Bing Dong",
       "identifier": null
@@ -75,7 +75,7 @@
       "tags": [
         "xlsx"
       ],
-      "link": "http://en.openei.org/datasets/dataset/lbnl-building-74",
+      "link": "https://en.openei.org/datasets/dataset/lbnl-building-74",
       "query": null,
       "contact": null,
       "identifier": null
@@ -95,7 +95,7 @@
       "tags": [
         "xlsx"
       ],
-      "link": "http://en.openei.org/datasets/dataset/ornl-research-house-3",
+      "link": "https://en.openei.org/datasets/dataset/ornl-research-house-3",
       "query": null,
       "contact": null,
       "identifier": null
@@ -115,7 +115,7 @@
       "tags": [
         "csv"
       ],
-      "link": "http://en.openei.org/datasets/dataset/consumption-outdoor-air-temperature-11-commercial-buildings",
+      "link": "https://en.openei.org/datasets/dataset/consumption-outdoor-air-temperature-11-commercial-buildings",
       "query": null,
       "contact": null,
       "identifier": null
@@ -135,7 +135,7 @@
       "tags": [
         "csv"
       ],
-      "link": "http://en.openei.org/datasets/dataset/long-term-data-on-3-office-air-handling-units",
+      "link": "https://en.openei.org/datasets/dataset/long-term-data-on-3-office-air-handling-units",
       "query": null,
       "contact": null,
       "identifier": null
@@ -177,7 +177,7 @@
         "csv",
         "api"
       ],
-      "link": "http://new.openbms.org/",
+      "link": "https://new.openbms.org/",
       "query": null,
       "contact": null,
       "identifier": null
@@ -197,7 +197,7 @@
       "tags": [
         "xlsx"
       ],
-      "link": "http://www.gsa.gov/dg/EUAS.zip",
+      "link": "https://www.gsa.gov/dg/EUAS.zip",
       "query": null,
       "contact": null,
       "identifier": null
@@ -217,7 +217,7 @@
       "tags": [
         "xlsx"
       ],
-      "link": "http://buildingsdatabook.eren.doe.gov",
+      "link": "https://buildingsdatabook.eren.doe.gov",
       "query": null,
       "contact": null,
       "identifier": null
@@ -237,7 +237,7 @@
       "tags": [
         "api"
       ],
-      "link": "http://en.openei.org/apps/api-browser/",
+      "link": "https://en.openei.org/apps/api-browser/",
       "query": null,
       "contact": null,
       "identifier": null
@@ -337,7 +337,7 @@
       "tags": [
         "xml"
       ],
-      "link": "http://www.nrel.gov/ap/retrofits/developer_tools.cfm",
+      "link": "https://www.nrel.gov/ap/retrofits/developer_tools.cfm",
       "query": null,
       "contact": null,
       "identifier": null
@@ -357,7 +357,7 @@
       "tags": [
         "api"
       ],
-      "link": "http://www.eia.gov/beta/api/",
+      "link": "https://www.eia.gov/beta/api/",
       "query": null,
       "contact": null,
       "identifier": null
@@ -399,7 +399,7 @@
       "tags": [
         "txt"
       ],
-      "link": "http://en.openei.org/datasets/dataset/one-year-behavior-environment-data-for-medium-office",
+      "link": "https://en.openei.org/datasets/dataset/one-year-behavior-environment-data-for-medium-office",
       "query": null,
       "contact": "Jared Langevin",
       "identifier": null
@@ -419,7 +419,7 @@
       "tags": [
         "csv"
       ],
-      "link": "http://en.openei.org/datasets/dataset/multifamily-programmable-thermostat-data",
+      "link": "https://en.openei.org/datasets/dataset/multifamily-programmable-thermostat-data",
       "query": null,
       "contact": "Bryan Urban",
       "identifier": null
@@ -439,7 +439,7 @@
       "tags": [
         "zip"
       ],
-      "link": "http://en.openei.org/datasets/dataset/long-term-occupancy-data-for-residential-and-commercial-building",
+      "link": "https://en.openei.org/datasets/dataset/long-term-occupancy-data-for-residential-and-commercial-building",
       "query": null,
       "contact": "Bing Dong",
       "identifier": null
@@ -459,7 +459,7 @@
       "tags": [
         "xlsx"
       ],
-      "link": "http://en.openei.org/datasets/dataset/lbnl-building-74",
+      "link": "https://en.openei.org/datasets/dataset/lbnl-building-74",
       "query": null,
       "contact": null,
       "identifier": null
@@ -479,7 +479,7 @@
       "tags": [
         "xlsx"
       ],
-      "link": "http://en.openei.org/datasets/dataset/ornl-research-house-3",
+      "link": "https://en.openei.org/datasets/dataset/ornl-research-house-3",
       "query": null,
       "contact": null,
       "identifier": null
@@ -499,7 +499,7 @@
       "tags": [
         "csv"
       ],
-      "link": "http://en.openei.org/datasets/dataset/consumption-outdoor-air-temperature-11-commercial-buildings",
+      "link": "https://en.openei.org/datasets/dataset/consumption-outdoor-air-temperature-11-commercial-buildings",
       "query": null,
       "contact": null,
       "identifier": null
@@ -519,7 +519,7 @@
       "tags": [
         "csv"
       ],
-      "link": "http://en.openei.org/datasets/dataset/long-term-data-on-3-office-air-handling-units",
+      "link": "https://en.openei.org/datasets/dataset/long-term-data-on-3-office-air-handling-units",
       "query": null,
       "contact": null,
       "identifier": null
@@ -561,7 +561,7 @@
         "csv",
         "api"
       ],
-      "link": "http://new.openbms.org/",
+      "link": "https://new.openbms.org/",
       "query": null,
       "contact": null,
       "identifier": null
@@ -581,7 +581,7 @@
       "tags": [
         "xlsx"
       ],
-      "link": "http://www.gsa.gov/dg/EUAS.zip",
+      "link": "https://www.gsa.gov/dg/EUAS.zip",
       "query": null,
       "contact": null,
       "identifier": null
@@ -601,7 +601,7 @@
       "tags": [
         "xlsx"
       ],
-      "link": "http://buildingsdatabook.eren.doe.gov",
+      "link": "https://buildingsdatabook.eren.doe.gov",
       "query": null,
       "contact": null,
       "identifier": null
@@ -621,7 +621,7 @@
       "tags": [
         "api"
       ],
-      "link": "http://en.openei.org/apps/api-browser/",
+      "link": "https://en.openei.org/apps/api-browser/",
       "query": null,
       "contact": null,
       "identifier": null
@@ -721,7 +721,7 @@
       "tags": [
         "xml"
       ],
-      "link": "http://www.nrel.gov/ap/retrofits/developer_tools.cfm",
+      "link": "https://www.nrel.gov/ap/retrofits/developer_tools.cfm",
       "query": null,
       "contact": null,
       "identifier": null
@@ -741,7 +741,7 @@
       "tags": [
         "api"
       ],
-      "link": "http://www.eia.gov/beta/api/",
+      "link": "https://www.eia.gov/beta/api/",
       "query": null,
       "contact": null,
       "identifier": null
