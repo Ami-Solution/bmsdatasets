@@ -1,5 +1,29 @@
 {
   "datasets": {
+    
+    https://raw.githubusercontent.com/laguer/JupyterDataScienceWorkflow/dataset/energydata_complete.csv
+    
+        "six-month-occupant-behavior-environment-data-for-medium-e-u-household": {
+      "category_id": "building-operations-data",
+      "title_id": "six-month-occupant-behavior-environment-data-for-medium-e-u-household",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Building Operations Data",
+      "title": "Six months occupant behavior/environment data for medium E.U. household",
+      "summary": "Six months of longitudinal data (ten minute interval) on local thermal conditions, related behaviors, and comfort of four occupants of a medium-sized household in Chievres, Belgium, EU.  Raw data in CSV format.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "txt"
+      ],
+      "link": "https://raw.githubusercontent.com/LaGuer/JupyterDataScienceWorkflow/master/dataset/energydata_complete.csv",
+      "query": null,
+      "contact": "La Guer",
+      "identifier": null
+    },
+    
     "one-year-occupant-behavior-environment-data-for-medium-u-s-office": {
       "category_id": "building-operations-data",
       "title_id": "one-year-occupant-behavior-environment-data-for-medium-u-s-office",
