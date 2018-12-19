@@ -13,9 +13,9 @@
       "description": null,
       "value": null,
       "tags": [
-        "hdf"
+        "zip"
       ],
-      "link": "https://laguer.github.io/jupy-smartbuilding-amis/downloads/combed.h5",
+      "link": "https://laguer.github.io/jupy-smartbuilding-amis/downloads/combed.zip",
       "query": null,
       "contact": "La Guer",
       "identifier": null
@@ -893,6 +893,7 @@
   ],
   "categories": {
     "Building Operations Data": [
+      "twenty-Mb-occupant-behavior-environment-data-for-medium-academic-building"
       "six-month-occupant-behavior-environment-data-for-medium-e-u-household",
       "one-year-occupant-behavior-environment-data-for-medium-u-s-office",
       "long-term-occupancy-data-for-a-residential-and-commercial-building",
@@ -963,6 +964,7 @@
     ],
     "zip": [
       "multifamily-programmable-thermostat-data"
+      "twenty-Mb-occupant-behavior-environment-data-for-medium-academic-building"
     ]
   }
 }
