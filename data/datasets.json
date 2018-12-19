@@ -9,7 +9,7 @@
       ],
       "category": "Building Operations Data",
       "title": "Smart Meter behavior/environment data for medium Academic Building",
-      "summary": "20Mb of longitudinal data (minute interval) on local energy disaggregation, related behaviors, and comfort of polulation of a medium-sized Academic Building, Delhi, India.  Raw data in HDF format.",
+      "summary": "Twenty Mb of longitudinal data (minute interval) on local energy disaggregation, related behaviors, and comfort of population of a medium-sized Academic Building, Delhi, India.  Raw data in zip format.",
       "description": null,
       "value": null,
       "tags": [
@@ -893,7 +893,7 @@
   ],
   "categories": {
     "Building Operations Data": [
-      "twenty-Mb-occupant-behavior-environment-data-for-medium-academic-building"
+      "twenty-Mb-occupant-behavior-environment-data-for-medium-academic-building",
       "six-month-occupant-behavior-environment-data-for-medium-e-u-household",
       "one-year-occupant-behavior-environment-data-for-medium-u-s-office",
       "long-term-occupancy-data-for-a-residential-and-commercial-building",
