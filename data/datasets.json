@@ -1,6 +1,6 @@
 {
   "datasets": {       
-     "six-month-occupant-behavior-environment-data-for-medium-e-u-household": {
+    "six-month-occupant-behavior-environment-data-for-medium-e-u-household": {
       "category_id": "building-operations-data",
       "title_id": "six-month-occupant-behavior-environment-data-for-medium-e-u-household",
       "status": true,
@@ -20,7 +20,6 @@
       "contact": "La Guer",
       "identifier": null
     },
-    
     "one-year-occupant-behavior-environment-data-for-medium-u-s-office": {
       "category_id": "building-operations-data",
       "title_id": "one-year-occupant-behavior-environment-data-for-medium-u-s-office",
