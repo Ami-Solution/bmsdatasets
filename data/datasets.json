@@ -2,14 +2,14 @@
   "datasets": {
     "twenty-Mb-occupant-behavior-environment-data-for-medium-academic-building": {
       "category_id": "building-operations-data",
-      "title_id": "twenty-Mb-occupant-behavior-environment-data-for-medium-academic-building",
+      "title_id": "twenty-mb-occupant-behavior-environment-data-for-medium-academic-building",
       "status": true,
       "sources": [
         "sunshot"
       ],
       "category": "Building Operations Data",
-      "title": "Smart Meter behavior/environment data for medium Academic Building",
-      "summary": "Twenty Mb of longitudinal data (minute interval) on local energy disaggregation, related behaviors, and comfort of population of a medium-sized Academic Building, Delhi, India.  Raw data in zip format.",
+      "title": "Twenty Mb of Energy Smart Meter behavior/environment data for medium Academic Building",
+      "summary": "Twenty Mb of longitudinal data (minute interval) captured with raspberryPi, schneider Electric Smart Meters focused on local energy disaggregation, related behaviors, and comfort of population of a medium-sized Academic Building, Delhi, India.  Raw data in zip format.",
       "description": null,
       "value": null,
       "tags": [
