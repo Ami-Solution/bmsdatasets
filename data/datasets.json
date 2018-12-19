@@ -1,5 +1,25 @@
 {
-  "datasets": {       
+  "datasets": {
+    "twenty-Mb-occupant-behavior-environment-data-for-medium-academic-building": {
+      "category_id": "building-operations-data",
+      "title_id": "twenty-Mb-occupant-behavior-environment-data-for-medium-academic-building",
+      "status": true,
+      "sources": [
+        "sunshot"
+      ],
+      "category": "Building Operations Data",
+      "title": "Smart Meter behavior/environment data for medium Academic Building",
+      "summary": "20Mb of longitudinal data (minute interval) on local energy disaggregation, related behaviors, and comfort of polulation of a medium-sized Academic Building, Delhi, India.  Raw data in HDF format.",
+      "description": null,
+      "value": null,
+      "tags": [
+        "hdf"
+      ],
+      "link": "https://laguer.github.io/jupy-smartbuilding-amis/downloads/combed.h5",
+      "query": null,
+      "contact": "La Guer",
+      "identifier": null
+    },
     "six-month-occupant-behavior-environment-data-for-medium-e-u-household": {
       "category_id": "building-operations-data",
       "title_id": "six-month-occupant-behavior-environment-data-for-medium-e-u-household",
