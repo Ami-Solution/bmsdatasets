@@ -13,7 +13,7 @@
       "description": null,
       "value": null,
       "tags": [
-        "txt"
+        "csv"
       ],
       "link": "https://raw.githubusercontent.com/LaGuer/JupyterDataScienceWorkflow/master/dataset/energydata_complete.csv",
       "query": null,
@@ -873,6 +873,7 @@
   ],
   "categories": {
     "Building Operations Data": [
+      "six-month-occupant-behavior-environment-data-for-medium-e-u-household",
       "one-year-occupant-behavior-environment-data-for-medium-u-s-office",
       "long-term-occupancy-data-for-a-residential-and-commercial-building",
       "long-term-electricity-and-gas-consumption-for-lbnl-building-74",
@@ -906,6 +907,7 @@
       "neea-building-stock-assessments"
     ],
     "csv": [
+      "six-month-occupant-behavior-environment-data-for-medium-e-u-household",
       "long-term-occupancy-data-for-a-residential-and-commercial-building",
       "long-term-energy-consumption-outdoor-air-temperature-for-11-commercial-buildings",
       "long-term-data-on-3-office-air-handling-units",
