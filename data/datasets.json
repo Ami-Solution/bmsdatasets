@@ -909,7 +909,8 @@
       "multifamily-programmable-thermostat-data"
     ],
     "Building Stock & Energy Data": [
-      "buildings-energy-data-book"
+      "buildings-energy-data-book",
+      "twenty-Mb-occupant-behavior-environment-data-for-medium-academic-building"
     ],
     "Developer Resources": [
       "energy-api-browser",
@@ -963,7 +964,7 @@
       "neea-building-stock-assessments"
     ],
     "zip": [
-      "multifamily-programmable-thermostat-data"
+      "multifamily-programmable-thermostat-data",
       "twenty-Mb-occupant-behavior-environment-data-for-medium-academic-building"
     ]
   }
