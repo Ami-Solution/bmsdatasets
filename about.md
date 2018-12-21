@@ -8,4 +8,6 @@ This website contains datasets on energy use and building operations and analysi
 
 Have a dataset you'd like to see added? Fork us, make the update, and open a pull request. Detailed instructions are in the [readme](https://github.com/Ami-Solution/bmsdatasets#bms-datasets).
 
-Additional data might be found by visiting [data.gov](https://www.data.gov), the home of the U.S. Government's open data.
+Additional data might be found by visiting [Ami-Solution](https://ami-solution.github.io/awesome-advanced-metering-infrastructure) and [data.gov](https://www.data.gov), the home of the U.S. Government's open data.
+
+
